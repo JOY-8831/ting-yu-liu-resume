@@ -4,6 +4,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import Link from "next/link";
 
 const totalPages = 24;
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 export default function PictureBookPage() {
   const [page, setPage] = useState(1);
@@ -70,14 +71,14 @@ export default function PictureBookPage() {
           <img
             key={`left-${page}`}
             className={`bookPage bookTurn-${direction}`}
-            src={`/picture-book/${page}.jpg`}
+            src={`${basePath}/picture-book/${page}.jpg`}
             alt={`《生命保衛戰》第 ${page} 頁`}
             draggable={false}
           />
           {hasRightPage && <img
             key={`right-${page + 1}`}
             className={`bookPage bookPageRight bookTurn-${direction}`}
-            src={`/picture-book/${page + 1}.jpg`}
+            src={`${basePath}/picture-book/${page + 1}.jpg`}
             alt={`《生命保衛戰》第 ${page + 1} 頁`}
             draggable={false}
           />}

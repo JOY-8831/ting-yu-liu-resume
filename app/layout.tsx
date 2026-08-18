@@ -9,8 +9,8 @@ export const metadata: Metadata = {
   title: "Ting-Yu Liu 劉庭妤｜Sustainability × Technology",
   description: "Bilingual portfolio and résumé of Ting-Yu Liu — Sustainability Specialist working across carbon reporting, ESG, IT, data and environmental education.",
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/favicon.svg`,
+    shortcut: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/favicon.svg`,
   },
 };
 

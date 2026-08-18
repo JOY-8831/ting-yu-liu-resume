@@ -536,6 +536,8 @@ function EditableText({ value }: { value: string; editing: boolean; multiline?: 
   return <>{value}</>;
 }
 
+const assetPath = (path: string) => `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}${path}`;
+
 function ProjectVisualContent({ item, lang, index }: { item: Item; lang: Lang; index: number }) {
   if (item.id === "dsv-reporting-tools") {
     return <div className="softwareShowcase" aria-label={lang === "zh" ? "三套內部軟體的匿名化示意圖" : "Anonymised visual of three internal software tools"}><div className="softwareTop"><strong>{lang === "zh" ? "3 套內部工具" : "3 internal tools"}</strong><span>85% ↑</span></div><div className="softwareFlow"><div><i>01</i><b>{lang === "zh" ? "資料查找" : "Data finder"}</b><small>{lang === "zh" ? "蒐集・驗證・整理" : "Collect · validate · prepare"}</small></div><div><i>02</i><b>{lang === "zh" ? "報告產製" : "Report builder"}</b><small>{lang === "zh" ? "資料到報告" : "Data-to-report workflow"}</small></div><div><i>03</i><b>{lang === "zh" ? "視覺優化" : "Visual QA"}</b><small>{lang === "zh" ? "圖表・版面・檢查" : "Charts · layout · checks"}</small></div></div><p>{lang === "zh" ? "匿名化介面示意，不含公司或客戶資料" : "Anonymised interface concept — no company or customer data"}</p></div>;
@@ -575,7 +577,7 @@ function ProjectVisualContent({ item, lang, index }: { item: Item; lang: Lang; i
     </div>;
   }
 
-  if (item.image) return <img src={item.image} alt={item.imageLabel[lang]} />;
+  if (item.image) return <img src={assetPath(item.image)} alt={item.imageLabel[lang]} />;
   return <><span className="visualMark">{["◌", "⌁", "✦", "◎"][index % 4]}</span><small>{item.imageLabel[lang]}</small></>;
 }
 
@@ -936,7 +938,7 @@ export default function Home() {
         </div>
         <div className="portraitWrap">
           <div className="orbit orbitOne" /><div className="orbit orbitTwo" />
-          <img src="/profile-source-0-X7.jpg" alt="Ting-Yu Liu" className="portrait" />
+          <img src={assetPath("/profile-source-0-X7.jpg")} alt="Ting-Yu Liu" className="portrait" />
           <div className="stat statOne"><strong>85%</strong><span>{lang === "zh" ? "節省處理時間" : "time saved"}</span></div>
           <div className="stat statTwo"><strong>100+</strong><span>{lang === "zh" ? <>IT 服務<br />提升服務台支援能力</> : <>IT services<br />service desk enablement</>}</span></div>
         </div>
@@ -978,7 +980,7 @@ export default function Home() {
                   <details className="certDetails">
                     <summary>{lang === "zh" ? "顯示證照圖片" : "Show certificate image"}</summary>
                     <div className={`certMedia ${cert.image ? "hasImage" : "isEmpty"}`}>
-                      {cert.image ? <img src={cert.image} alt={`${cert.title[lang]} ${lang === "zh" ? "證書" : "certificate"}`} /> : <span>{lang === "zh" ? "證書圖片待補" : "Certificate image to be added"}</span>}
+                      {cert.image ? <img src={assetPath(cert.image)} alt={`${cert.title[lang]} ${lang === "zh" ? "證書" : "certificate"}`} /> : <span>{lang === "zh" ? "證書圖片待補" : "Certificate image to be added"}</span>}
                     </div>
                   </details>
                 </article>
@@ -1025,7 +1027,7 @@ export default function Home() {
           </div>)}
           {creativeItems.length > 0 && <section className="creativeShelf" id="personal-creative">
             <div className="creativeHeading"><div><p className="eyebrow">{lang === "zh" ? "個人投入" : "Personal work"}</p><h2>{lang === "zh" ? "在工作與研究之外，持續觀察、創作與連結。" : "Observing, creating and connecting beyond work and research."}</h2></div><p>{lang === "zh" ? "環境教育、繪本、貼圖、導覽與社群參與" : "Environmental education, picture books, stickers, guiding and community engagement"}</p></div>
-            <div className="creativeGrid">{creativeItems.map((item, i) => <article className="projectCard creativeCard" key={item.id}>{itemTools(item)}<div className={`projectVisual visual${i % 4}`}>{item.image ? <img src={item.image} alt={item.imageLabel[lang]} /> : <><span className="visualMark">TYL.</span><small>{item.imageLabel[lang]}</small></>}</div><div className="projectBody"><div className="meta"><span>{sectionLabels[item.kind][lang]}</span><time><EditableText value={item.period[lang]} editing={editing} onChange={(value) => updateItemText(item.id, "period", value)} /></time></div><h3><EditableText value={item.title[lang]} editing={editing} onChange={(value) => updateItemText(item.id, "title", value)} /></h3><h4><EditableText value={item.org[lang]} editing={editing} onChange={(value) => updateItemText(item.id, "org", value)} /></h4><p><EditableText value={item.summary[lang]} editing={editing} multiline onChange={(value) => updateItemText(item.id, "summary", value)} /></p>{item.bullets.length > 0 && <ul>{item.bullets.slice(0, 2).map((bullet, index) => <li key={index}><EditableText value={bullet[lang]} editing={editing} multiline onChange={(value) => updateBullet(item.id, index, value)} /></li>)}</ul>}{item.link && <a className="projectLink" href={item.link} target="_blank" rel="noreferrer">{lang === "zh" ? "查看作品" : "View project"} ↗</a>}<div className="miniTags">{item.tags.map((id) => <span key={id}>#{tags.find((x) => x.id === id)?.label[lang]}</span>)}</div></div></article>)}</div>
+            <div className="creativeGrid">{creativeItems.map((item, i) => <article className="projectCard creativeCard" key={item.id}>{itemTools(item)}<div className={`projectVisual visual${i % 4}`}>{item.image ? <img src={assetPath(item.image)} alt={item.imageLabel[lang]} /> : <><span className="visualMark">TYL.</span><small>{item.imageLabel[lang]}</small></>}</div><div className="projectBody"><div className="meta"><span>{sectionLabels[item.kind][lang]}</span><time><EditableText value={item.period[lang]} editing={editing} onChange={(value) => updateItemText(item.id, "period", value)} /></time></div><h3><EditableText value={item.title[lang]} editing={editing} onChange={(value) => updateItemText(item.id, "title", value)} /></h3><h4><EditableText value={item.org[lang]} editing={editing} onChange={(value) => updateItemText(item.id, "org", value)} /></h4><p><EditableText value={item.summary[lang]} editing={editing} multiline onChange={(value) => updateItemText(item.id, "summary", value)} /></p>{item.bullets.length > 0 && <ul>{item.bullets.slice(0, 2).map((bullet, index) => <li key={index}><EditableText value={bullet[lang]} editing={editing} multiline onChange={(value) => updateBullet(item.id, index, value)} /></li>)}</ul>}{item.link && <a className="projectLink" href={item.link} target="_blank" rel="noreferrer">{lang === "zh" ? "查看作品" : "View project"} ↗</a>}<div className="miniTags">{item.tags.map((id) => <span key={id}>#{tags.find((x) => x.id === id)?.label[lang]}</span>)}</div></div></article>)}</div>
           </section>}
         </div> : (
           <div className="resumePaper">
