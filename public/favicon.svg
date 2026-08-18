@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">TYL.</title>
+  <rect width="64" height="64" rx="15" fill="#17364c"/>
+  <path d="M39 5a20 20 0 0 1 20 20" fill="none" stroke="#63b7d5" stroke-width="6" stroke-linecap="round"/>
+  <path d="M5 39a20 20 0 0 0 20 20" fill="none" stroke="#e5662f" stroke-width="6" stroke-linecap="round"/>
+  <text x="9" y="40" fill="#fffdf8" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" letter-spacing="-1.4">TYL</text>
+  <circle cx="52" cy="40" r="4" fill="#f08a50"/>
+</svg>

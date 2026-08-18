@@ -1,0 +1,1171 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    {
+      "id": "global-it-trainee",
+      "kind": "work",
+      "tags": [
+        "esg",
+        "it"
+      ],
+      "period": {
+        "zh": "2023.11 – 2025.04",
+        "en": "NOV 2023 – APR 2025"
+      },
+      "title": {
+        "zh": "全球 IT 儲備幹部",
+        "en": "Global IT Trainee"
+      },
+      "org": {
+        "zh": "DB Schenker｜德國 Essen",
+        "en": "DB Schenker | Essen, Germany"
+      },
+      "summary": {
+        "zh": "在全球職能部門推動 ESG、永續與營運改善專案，強化報告資料完整性、減碳規劃與數位自動化；建立四套 Power BI 儀表板，提供財務、永續產品與人力數據的即時洞察，並可依區域與市場深入分析。",
+        "en": "Delivered ESG, sustainability and operational improvement projects across global functions, strengthening reporting integrity, decarbonisation planning and digital automation. Created four Power BI dashboards providing real-time financial, sustainability product and workforce insights with drilldowns across regions and markets."
+      },
+      "bullets": [],
+      "teams": [
+        {
+          "name": {
+            "zh": "Global Air Freight Sustainability",
+            "en": "Global Air Freight Sustainability"
+          },
+          "period": {
+            "zh": "2024.10–2025.03",
+            "en": "Oct 2024–Mar 2025"
+          },
+          "bullets": [
+            {
+              "zh": "建立永續航空燃料（SAF）供需缺口模型，對齊客戶減碳目標，支援 CSRD 與 SBTi 合規路徑規劃。",
+              "en": "Developed a Sustainability Aviation Fuel (SAF) supply-demand gap model aligned to customer decarbonisation targets, supporting CSRD and SBTi compliance pathways."
+            },
+            {
+              "zh": "將 SAF 模型結果轉化為各區域目標，協助團隊評估 2030 年減排計畫的可行性。",
+              "en": "Converted SAF modelling outcomes into region-specific targets enabling teams to assess feasibility against 2030 emission reduction plans."
+            },
+            {
+              "zh": "與永續及行銷團隊上線 SAF 專頁，確保資訊準確並降低漂綠風險。",
+              "en": "Launched a SAF webpage with Sustainability and Marketing teams, ensuring accurate communication while mitigating green washing risks."
+            },
+            {
+              "zh": "舉辦跨事業部工作坊，建立組織對歐盟 SAF 法規及其營運影響的理解。",
+              "en": "Delivered cross-division workshops to build organisational understanding of the EU SAF Mandate and its operational impact."
+            }
+          ]
+        },
+        {
+          "name": {
+            "zh": "Global Sustainability",
+            "en": "Global Sustainability"
+          },
+          "period": {
+            "zh": "2024.07–2024.09",
+            "en": "Jul–Sep 2024"
+          },
+          "bullets": [
+            {
+              "zh": "設計自動驗證規則與績效追蹤，整合 140+ 國家的 ESG 與職業健康安全報告，使資料完整性提升 45%。",
+              "en": "Improved ESG and Health & Safety data integrity by 45% by designing automated validation rules and performance tracking, unifying reporting for 140+ countries."
+            },
+            {
+              "zh": "主導即時事故通報系統的全球導入，獲 1,400+ 個據點採用，使反應速度提升 60%，並強化稽核可追溯性。",
+              "en": "Led the global rollout of an Immediate Incident Reporting system adopted at 1,400+ sites, improving response speed by 60% and strengthening audit traceability."
+            },
+            {
+              "zh": "撰寫符合 ISO 14001 的健康與安全手冊，強化內部永續與合規標準。",
+              "en": "Authored a Health & Safety manual aligned with ISO 14001, reinforcing internal sustainability and compliance standards."
+            },
+            {
+              "zh": "透過供應商訪談與成本效益分析評估八套 ESG 自動化軟體，支援高階管理團隊決策。",
+              "en": "Assessed eight ESG automation software through vendor interview and cost-benefit analysis, supporting Senior Leadership Team decision-making."
+            }
+          ]
+        },
+        {
+          "name": {
+            "zh": "Global Operations, Infrastructure and Service",
+            "en": "Global Operations, Infrastructure and Service"
+          },
+          "period": {
+            "zh": "2023.11–2024.06",
+            "en": "Nov 2023–Jun 2024"
+          },
+          "bullets": [
+            {
+              "zh": "協助部門主管監測第一線員工流動率，整合人力指標儀表板與 Power Automate 滿意度表單。",
+              "en": "Supported the Head of Department to monitor frontline employee turnover by integrating a workforce metrics dashboard with a Power Automate form of satisfaction rate."
+            },
+            {
+              "zh": "建立以 OKR 為基礎的系統追蹤中階主管推動項目，提升人力資訊透明度、目標一致性與問責。",
+              "en": "Implemented an OKR-based system to track middle-management initiatives, improving workforce visibility, alignment, and accountability."
+            },
+            {
+              "zh": "在學習管理系統（LMS）建立能力缺口分析與職涯路徑框架，支援 100+ 名 ITSD 人員的精準培訓。",
+              "en": "Developed an ability-gap analysis and career-path framework in Learning Management System (LMS), supporting targeted upskilling for 100+ ITSD employees."
+            }
+          ]
+        }
+      ],
+      "imageLabel": {
+        "zh": "全球 IT 儲備幹部輪調",
+        "en": "Global IT Trainee rotations"
+      }
+    },
+    {
+      "id": "sustainability-specialist",
+      "kind": "work",
+      "tags": [
+        "esg",
+        "it"
+      ],
+      "period": {
+        "zh": "2026.03 – 至今",
+        "en": "Mar 2026 – Present"
+      },
+      "title": {
+        "zh": "永續專員",
+        "en": "Sustainability Specialist"
+      },
+      "org": {
+        "zh": "DSV｜台北・台灣",
+        "en": "DSV | Taipei · Taiwan"
+      },
+      "summary": {
+        "zh": "與亞太區重要客戶經理及跨功能團隊合作，將物流資料轉化為可信賴的碳排放分析、客戶永續報告與可行洞察。",
+        "en": "Partner with Key Account Managers and cross-functional teams across APAC to turn logistics data into reliable carbon-emission analysis, customer sustainability reports and actionable insights."
+      },
+      "bullets": [
+        {
+          "zh": "分析減碳方案、方法學與成本，提供重要客戶經理所需洞察，以有效向客戶推廣相關方案。",
+          "en": "Analyzed decarbonization solutions, methodologies, and costs to equip KAMs with the insights needed to promote them effectively to customers."
+        },
+        {
+          "zh": "理解亞太客戶需求，依公認碳盤查方法與物流參數處理、驗證及分析貨運資料。",
+          "en": "Understand APAC customer needs and process, validate and analyse freight data using recognised carbon-accounting methodologies and logistics parameters."
+        },
+        {
+          "zh": "開發三套內部工具，涵蓋資料查找與整理、報告產製，以及報告視覺化與品質檢查，使整體效率提升 40%。",
+          "en": "Developed three internal tools spanning data retrieval and preparation, report generation, and report visualisation and quality checks, accelerating the efficiency by 40%."
+        },
+        {
+          "zh": "促進亞太跨團隊知識分享，持續改善碳排放回報實務。",
+          "en": "Enable APAC knowledge sharing and continuous improvement of carbon-reporting practices across functions."
+        }
+      ],
+      "imageLabel": {
+        "zh": "物流碳排放分析／可替換作品圖",
+        "en": "Logistics carbon analysis / replaceable image"
+      }
+    },
+    {
+      "id": "it-service-desk",
+      "kind": "work",
+      "tags": [
+        "it"
+      ],
+      "period": {
+        "zh": "2025.05 – 2025.12",
+        "en": "MAY 2025 – DEC 2025"
+      },
+      "title": {
+        "zh": "IT 服務導入經理",
+        "en": "IT Service Onboarding Manager"
+      },
+      "org": {
+        "zh": "DB Schenker｜德國 Essen",
+        "en": "DB Schenker x DSV | Essen, Germany"
+      },
+      "summary": {
+        "zh": "於企業合併期間，透過專案管理改善治理與工作流程，確保服務 70,000+ 名內部使用者的 IT 服務能有效導入並持續優化。",
+        "en": "Ensures effective onboarding during a corporate merger and optimisation of IT services by improving governance and workflows via project management for 70,000+ internal users."
+      },
+      "bullets": [
+        {
+          "zh": "因應雲端基礎設施供應商更換與營運移轉，重新設計工單流程，減少 20% 的供應商接觸點並提升成本可預測性。",
+          "en": "Redesigned the ticketing process due to replacing vendor of cloud infrastructure and migrating operations, reducing 20% vendor touchpoints and improving cost predictability."
+        },
+        {
+          "zh": "辨識文件改善需求並提出 ServiceNow 設定方案，以縮短解決時間、降低人工操作風險並提升流程一致性。",
+          "en": "Identified documentation improvements and proposed ServiceNow configuration to reduce resolution time and the manual risk and enhance process consistency."
+        }
+      ],
+      "imageLabel": {
+        "zh": "IT 服務流程／可替換作品圖",
+        "en": "IT service workflow / replaceable image"
+      }
+    },
+    {
+      "id": "dsv-reporting-tools",
+      "kind": "project",
+      "tags": [
+        "esg",
+        "it"
+      ],
+      "period": {
+        "zh": "2026.03 – 至今",
+        "en": "Mar 2026 – Present"
+      },
+      "title": {
+        "zh": "物流碳報告工具組",
+        "en": "Logistics Carbon Reporting Toolkit"
+      },
+      "org": {
+        "zh": "DSV｜三套內部軟體",
+        "en": "DSV | Three internal software tools"
+      },
+      "summary": {
+        "zh": "開發三套內部工具，涵蓋資料查找與整理、報告產製，以及報告視覺化與品質檢查。",
+        "en": "Developed three internal tools spanning data retrieval and preparation, report generation, and report visualisation and quality checks."
+      },
+      "bullets": [
+        {
+          "zh": "將重複性資料處理與報告步驟標準化，提升產出效率與一致性。",
+          "en": "Standardised repetitive data and reporting steps to improve output efficiency and consistency."
+        },
+        {
+          "zh": "重新設計圖表與報告版面，使碳排結果更容易被客戶理解與使用。",
+          "en": "Improved charts and report layouts so carbon results are easier for customers to understand and use."
+        }
+      ],
+      "imageLabel": {
+        "zh": "三套工具的匿名化流程示意",
+        "en": "Anonymised workflow across three tools"
+      }
+    },
+    {
+      "id": "saf-integrated-dashboard",
+      "kind": "project",
+      "tags": [
+        "esg",
+        "it"
+      ],
+      "period": {
+        "zh": "2025・輪調後期",
+        "en": "2025 · Final rotation phase"
+      },
+      "title": {
+        "zh": "SAF 整合儀表板",
+        "en": "Integrated SAF Dashboard"
+      },
+      "org": {
+        "zh": "DB Schenker｜全球 IT 儲備幹部專案",
+        "en": "DB Schenker | Global IT Trainee project"
+      },
+      "summary": {
+        "zh": "在航空貨運永續輪調後期整合 SAF 銷售、採購與區域進度資訊，讓分散資料能以一致視角追蹤並支援後續決策。",
+        "en": "Integrated SAF sales, procurement and regional progress information into a consistent view for tracking and decision support during the final rotation phase."
+      },
+      "bullets": [
+        {
+          "zh": "整合不同來源與區域的 SAF 指標，減少人工彙整並提升資料可讀性。",
+          "en": "Combined SAF metrics across sources and regions, reducing manual consolidation and improving readability."
+        }
+      ],
+      "imageLabel": {
+        "zh": "匿名化 SAF 整合儀表板概念畫面",
+        "en": "Anonymised integrated SAF dashboard concept"
+      }
+    },
+    {
+      "id": "powerbi-service-dashboards",
+      "kind": "project",
+      "tags": [
+        "esg",
+        "it"
+      ],
+      "period": {
+        "zh": "2023.11 – 2024.03",
+        "en": "Nov 2023 – Mar 2024"
+      },
+      "title": {
+        "zh": "Power BI Workforce Metrics 人力儀表板",
+        "en": "Power BI Workforce Metrics Dashboard"
+      },
+      "org": {
+        "zh": "DB Schenker｜Global Operations, Infrastructure and Service",
+        "en": "DB Schenker | Global Operations, Infrastructure and Service"
+      },
+      "summary": {
+        "zh": "為全球 IT 服務台主管設計端到端人力洞察儀表板，將每月人力異動資料與每半年員工滿意度調查整合至 Power BI，並嵌入 Microsoft Teams 供主管持續追蹤。",
+        "en": "Designed an end-to-end workforce intelligence dashboard for Global IT Service Desk managers, combining monthly staffing data and biannual employee-satisfaction surveys in Power BI and embedding the report in Microsoft Teams."
+      },
+      "bullets": [
+        {
+          "zh": "透過 Microsoft Forms、Power Automate 及 SharePoint／Excel 建立進離職資料流程，減少人工更新並提升資料準確性與一致性。",
+          "en": "Automated joiner and leaver data flows through Microsoft Forms, Power Automate and SharePoint/Excel, reducing manual updates and improving data accuracy and consistency."
+        },
+        {
+          "zh": "讓主管能依時間與團隊分析人數、性別結構、進離職、每月／滾動流動率、四項滿意度指標及文字回饋。",
+          "en": "Enabled time- and team-level analysis of headcount, gender representation, joiners, leavers, monthly and rolling turnover, four satisfaction indicators and qualitative comments."
+        }
+      ],
+      "imageLabel": {
+        "zh": "匿名化 Power BI 人力指標儀表板概念畫面",
+        "en": "Anonymised Power BI workforce metrics dashboard concept"
+      }
+    },
+    {
+      "id": "saf-marketing-site",
+      "kind": "project",
+      "tags": [
+        "esg",
+        "it"
+      ],
+      "period": {
+        "zh": "2024.07 – 2025.04",
+        "en": "Jul 2024 – Apr 2025"
+      },
+      "title": {
+        "zh": "SAF 官方介紹與行銷網站",
+        "en": "Official SAF Information & Marketing Website"
+      },
+      "org": {
+        "zh": "DB Schenker｜永續航空燃料內容專案",
+        "en": "DB Schenker | Sustainable Aviation Fuel content project"
+      },
+      "summary": {
+        "zh": "撰寫永續航空燃料官方網站內容，將 SAF、市場發展與減碳價值轉化為清楚、易理解的對外介紹。",
+        "en": "Wrote official web content that translated Sustainable Aviation Fuel, market developments and decarbonisation value into clear, accessible external communication."
+      },
+      "bullets": [
+        {
+          "zh": "結合 SAF 供需缺口模型、區域目標與政策脈絡，支援行銷及客戶溝通。",
+          "en": "Connected SAF supply-demand analysis, regional targets and policy context to support marketing and customer communication."
+        }
+      ],
+      "image": "/saf-information-marketing-post.png",
+      "imageLabel": {
+        "zh": "DB Schenker SAF 官方介紹與行銷貼文",
+        "en": "DB Schenker official SAF information and marketing post"
+      }
+    },
+    {
+      "id": "emct",
+      "kind": "work",
+      "tags": [
+        "esg",
+        "it"
+      ],
+      "period": {
+        "zh": "2020.06 – 2020.08",
+        "en": "Jun 2020 – Aug 2020"
+      },
+      "title": {
+        "zh": "實習生",
+        "en": "Intern"
+      },
+      "org": {
+        "zh": "宸訊科技 EMCT｜台灣",
+        "en": "EMCT | Taiwan"
+      },
+      "summary": {
+        "zh": "為國家公園網站製作推廣內容，並將高雄市違規廢棄物通報資料轉化為 GIS 熱區圖，協助辨識高風險路段及可能需要優先清潔或巡查的位置。",
+        "en": "Created promotional content for a National Parks website and transformed Kaohsiung waste-violation reports into GIS hotspot maps to identify high-risk corridors and areas for potential cleaning or inspection prioritisation."
+      },
+      "bullets": [
+        {
+          "zh": "清理並定位 1,920 筆 2013 年通報資料，處理非標準地址，再以 Kepler.gl、TGOS 與 Mapbox 呈現空間分布。",
+          "en": "Cleaned and geocoded 1,920 reports from 2013, resolving non-standard addresses and visualising their spatial distribution with Kepler.gl, TGOS, and Mapbox."
+        },
+        {
+          "zh": "自行開發爬蟲，自動操作網頁 HTML 並擷取座標資料，減少逐筆查找與複製座標的人工處理。",
+          "en": "Developed a web scraper that interacted with webpage HTML and extracted coordinates, reducing manual record-by-record lookup and copying."
+        },
+        {
+          "zh": "依違規類型與車種比較熱點，辨識台 1、台 17、台 19 甲及前鎮、路竹、楠梓等聚集區；亦探索夜市周邊與人口密度等可能因素。",
+          "en": "Compared hotspots by violation and vehicle type, identifying clusters along Provincial Highways 1, 17, and 19A and in Qianzhen, Luzhu, and Nanzih, while exploring possible factors such as night markets and population density."
+        },
+        {
+          "zh": "參與 App 測試，檢查功能與使用流程並回報問題。",
+          "en": "Conducted app testing, checking functionality and user flows and reporting issues."
+        }
+      ],
+      "image": "/emct-waste-hotspot-map.png",
+      "imageLabel": {
+        "zh": "高雄廢棄物違規通報熱區與主要聚集路段",
+        "en": "Waste-violation hotspots and major clusters in Kaohsiung"
+      }
+    },
+    {
+      "id": "ntnu-research-assistant",
+      "kind": "work",
+      "tags": [
+        "esg",
+        "it"
+      ],
+      "period": {
+        "zh": "2020.12 – 2021.09",
+        "en": "Dec 2020 – Sep 2021"
+      },
+      "title": {
+        "zh": "兼任研究助理",
+        "en": "Part-time Research Assistant"
+      },
+      "org": {
+        "zh": "國立臺灣師範大學地理學系",
+        "en": "Department of Geography, National Taiwan Normal University"
+      },
+      "summary": {
+        "zh": "參與七家灣溪高山水文地質特性與流域水循環研究，利用地球化學參數辨識水源，以及地表水與地下水之間的交互作用。",
+        "en": "Supported research on alpine hydrogeological characteristics and watershed cycling in Qijiawan Creek, using geochemical parameters to identify water sources and surface-water–groundwater interactions."
+      },
+      "bullets": [],
+      "imageLabel": {
+        "zh": "高山流域水文研究",
+        "en": "Alpine watershed hydrology research"
+      }
+    },
+    {
+      "id": "master",
+      "kind": "education",
+      "tags": [
+        "esg",
+        "it"
+      ],
+      "period": {
+        "zh": "2021.10 – 2023.08",
+        "en": "Oct 2021 – Aug 2023"
+      },
+      "title": {
+        "zh": "地下水與全球變遷聯合碩士",
+        "en": "Joint Master of Groundwater and Global Change"
+      },
+      "org": {
+        "zh": "里斯本大學高等技術學院／IHE Delft 水教育學院／德勒斯登工業大學｜葡萄牙、荷蘭、德國",
+        "en": "Instituto Superior Técnico, University of Lisbon / IHE Delft Institute for Water Education / Technische Universität Dresden | Portugal, Netherlands, Germany"
+      },
+      "summary": {
+        "zh": "與來自 20+ 個國家的國際同儕合作，透過現地調查與資料分析研究地下水系統。",
+        "en": "Collaborated with an international cohort from over 20 countries to conduct groundwater research through field investigations and data analysis."
+      },
+      "bullets": [
+        {
+          "zh": "在三個洞穴系統中，利用洞穴滴水同位素研究喀斯特非飽和帶的水文過程。",
+          "en": "Investigated karst vadose-zone processes using cave-drip water isotopes in three cave systems."
+        },
+        {
+          "zh": "分析乾旱對德國三種生態系統碳吸收的影響。",
+          "en": "Analysed drought impacts on carbon uptake in three German ecosystems."
+        }
+      ],
+      "image": "/ihe-digne-video-frame.jpg",
+      "link": "https://www.youtube.com/watch?v=mvAHYkQFhrg",
+      "imageLabel": {
+        "zh": "法國 Digne 戶外考察",
+        "en": "Field course in Digne, France"
+      }
+    },
+    {
+      "id": "tea",
+      "kind": "work",
+      "tags": [
+        "esg",
+        "guide"
+      ],
+      "period": {
+        "zh": "2018.04 – 2018.12",
+        "en": "Apr 2018 – Dec 2018"
+      },
+      "title": {
+        "zh": "實習生",
+        "en": "Intern"
+      },
+      "org": {
+        "zh": "台灣藍鵲茶｜台灣",
+        "en": "Taiwan Blue Magpie Tea | Taiwan"
+      },
+      "summary": {
+        "zh": "透過資料整合、利害關係人協調與溝通活動，支援永續認證、環境教育及社區倡議。",
+        "en": "Supported sustainability certification, environmental education and community initiatives through data consolidation, stakeholder coordination and communication activities."
+      },
+      "bullets": [
+        {
+          "zh": "整合內部永續資料、文件與治理證據，協調 B Corp 認證作業。",
+          "en": "Coordinated B-Corp certification by consolidating internal sustainability data, documentation and governance evidence."
+        },
+        {
+          "zh": "與企業夥伴合作推動環境友善契作農業的 CSR 計畫。",
+          "en": "Delivered CSR initiatives promoting environmentally friendly, contract-based farming with enterprise partners."
+        },
+        {
+          "zh": "管理涵蓋茶產品銷售、環境教育與 NGO 活動宣傳的 Facebook 內容，協辦公共講座，使粉專追蹤人數成長 10%。",
+          "en": "Managed Facebook content covering tea product sales, environmental education and NGO event promotion, co-organising public talks and increasing the page’s follower base by 10%."
+        }
+      ],
+      "image": "/taiwan-blue-magpie-tea.jpg",
+      "imageLabel": {
+        "zh": "台灣藍鵲茶活動現場",
+        "en": "Taiwan Blue Magpie Tea community event"
+      }
+    },
+    {
+      "id": "tea-community-project",
+      "kind": "project",
+      "tags": [
+        "esg",
+        "guide"
+      ],
+      "period": {
+        "zh": "2018.04 – 2018.12",
+        "en": "Apr 2018 – Dec 2018"
+      },
+      "title": {
+        "zh": "永續茶業溝通與社群參與",
+        "en": "Sustainable Tea Communication & Community Engagement"
+      },
+      "org": {
+        "zh": "台灣藍鵲茶｜內容與公眾參與專案",
+        "en": "Taiwan Blue Magpie Tea | Content & public engagement project"
+      },
+      "summary": {
+        "zh": "將茶產品、友善契作、環境教育與 NGO 活動轉化為大眾易於理解的社群內容與實體交流，連結永續理念、地方農業與公眾參與。",
+        "en": "Translated tea products, eco-friendly contract farming, environmental education and NGO initiatives into accessible social content and in-person engagement, connecting sustainability, local agriculture and public participation."
+      },
+      "bullets": [
+        {
+          "zh": "管理 Facebook 內容並協辦公共講座，使粉專追蹤人數成長 10%。",
+          "en": "Managed Facebook content and co-organised public talks, increasing the page’s follower base by 10%."
+        },
+        {
+          "zh": "協助推廣企業 CSR 與環境友善契作農業，讓茶產業的永續實務更容易被看見與理解。",
+          "en": "Supported CSR and eco-friendly contract-farming outreach, making sustainable tea practices more visible and understandable."
+        }
+      ],
+      "image": "/taiwan-blue-magpie-tea-community.jpg",
+      "imageLabel": {
+        "zh": "台灣藍鵲茶戶外茶席與社群活動",
+        "en": "Taiwan Blue Magpie Tea outdoor tea and community event"
+      }
+    },
+    {
+      "id": "bachelor",
+      "kind": "education",
+      "tags": [
+        "esg",
+        "it",
+        "guide"
+      ],
+      "period": {
+        "zh": "2017 – 2021",
+        "en": "2017 – 2021"
+      },
+      "title": {
+        "zh": "地理學學士",
+        "en": "BA in Geography"
+      },
+      "org": {
+        "zh": "國立臺灣師範大學｜台灣",
+        "en": "National Taiwan Normal University | Taiwan"
+      },
+      "summary": {
+        "zh": "參與多項跨領域研究計畫與創新競賽，培養環境研究、GIS、資料分析及數位工具等實作能力，並強化創意思考與問題解決能力。",
+        "en": "Participated in interdisciplinary research projects and innovation competitions. Developed practical skills in environmental research, GIS, data analysis, and digital tools, strengthening my creativity and problem-solving abilities."
+      },
+      "bullets": [],
+      "imageLabel": {
+        "zh": "SWAT 與茶園研究／可替換作品圖",
+        "en": "SWAT and tea-farm research / replaceable image"
+      }
+    },
+    {
+      "id": "undergraduate-research",
+      "kind": "project",
+      "tags": [
+        "esg",
+        "it"
+      ],
+      "period": {
+        "zh": "2019.08 – 2021",
+        "en": "Aug 2019 – 2021"
+      },
+      "title": {
+        "zh": "氣候調適、茶園水資源與都市熱島研究",
+        "en": "Climate Adaptation, Tea-Water & Urban Heat Research"
+      },
+      "org": {
+        "zh": "國立臺灣師範大學地理學系",
+        "en": "Department of Geography, National Taiwan Normal University"
+      },
+      "summary": {
+        "zh": "大學期間以 SWAT 評估鳳山溪流域茶園藍水與綠水的空間差異及調適策略，並完成兩項佳作研究：新竹茶農對水資源不足的災害識覺，以及臺北盆地土地利用變遷與都市熱島效應。",
+        "en": "Used SWAT to assess spatial differences in blue and green water and adaptation strategies for tea farms in the Fengshan River watershed, and completed two recognised studies on Hsinchu tea farmers’ risk perception of water scarcity and land-use change and urban heat in the Taipei Basin."
+      },
+      "bullets": [
+        {
+          "zh": "科技部大專生研究計畫：2019.08–2020.03。",
+          "en": "Ministry of Science and Technology undergraduate research project: Aug 2019–Mar 2020."
+        },
+        {
+          "zh": "大專生小論文競賽：2020、2021 年皆獲佳作。",
+          "en": "Undergraduate research-paper competition: Honorable Mention in both 2020 and 2021."
+        }
+      ],
+      "imageLabel": {
+        "zh": "茶園水資源、SWAT 與都市熱島研究概念畫面",
+        "en": "Tea-water, SWAT and urban-heat research concept"
+      }
+    },
+    {
+      "id": "water-gamechanger",
+      "kind": "project",
+      "tags": [
+        "esg",
+        "it",
+        "guide"
+      ],
+      "period": {
+        "zh": "2023",
+        "en": "2023"
+      },
+      "title": {
+        "zh": "節水系統：UN Gamechanger Challenge Top 20",
+        "en": "Water-saving System — UN Gamechanger Challenge Top 20"
+      },
+      "org": {
+        "zh": "地下水與全球變遷聯合碩士期間・國際創新挑戰",
+        "en": "Joint Master in Groundwater and Global Change · International innovation challenge"
+      },
+      "summary": {
+        "zh": "開發獲選 UN 2023 Gamechanger Challenge 前 20 名的節水系統，並於台灣金斯頓學校籌辦線上分享。",
+        "en": "Developed a water-saving system recognised in the Top 20 of the UN 2023 Gamechanger Challenge and organised an online talk at Taiwan Kingston School."
+      },
+      "bullets": [],
+      "image": "/un-gamechanger-team-star.jpg",
+      "imageLabel": {
+        "zh": "Team Star 團隊與 Shower Water Diversion System 構想介紹",
+        "en": "Team Star and its Shower Water Diversion System concept"
+      }
+    },
+    {
+      "id": "climate-game",
+      "kind": "project",
+      "tags": [
+        "esg",
+        "it",
+        "guide"
+      ],
+      "period": {
+        "zh": "2021",
+        "en": "2021"
+      },
+      "title": {
+        "zh": "《神農氏的時光機》氣候調適網頁遊戲",
+        "en": "Shennong’s Time Machine — Climate Adaptation Web Game"
+      },
+      "org": {
+        "zh": "榮獲 Honorable Mention",
+        "en": "Honorable Mention"
+      },
+      "summary": {
+        "zh": "與張容慈共同企劃一款以台灣農業為背景的氣候教育遊戲，將 RCP 4.5／8.5 氣候情境、作物生長條件與調適成本轉化為互動決策。",
+        "en": "Co-designed a Taiwan-focused climate education game with a teammate, translating RCP 4.5/8.5 scenarios, crop requirements, and adaptation costs into interactive decisions."
+      },
+      "bullets": [
+        {
+          "zh": "玩家可選擇五種作物與不同地區，運用改變種植地形、增加灌溉、改種作物或興建溫室等工具，在資金與產量之間做取捨。",
+          "en": "Players select among five crops and regions, then balance budget and yield using adaptations such as changing terrain, irrigation, crop switching, and greenhouses."
+        },
+        {
+          "zh": "企劃結合 TCCIP 統計降尺度氣候資料、作物防災栽培曆與 DSSAT 作物模式概念，讓學生與民眾理解氣候風險及調適並非單一答案。",
+          "en": "The concept combines TCCIP downscaled climate data, crop-disaster calendars, and DSSAT crop-model principles to show that climate adaptation involves multiple trade-offs."
+        }
+      ],
+      "image": "/climate-game-adaptation-screen.png",
+      "link": "https://www.youtube.com/watch?v=NZWUcXR3HQk",
+      "imageLabel": {
+        "zh": "RCP 4.5 情境下的作物調適決策畫面",
+        "en": "Crop adaptation decisions under an RCP 4.5 scenario"
+      }
+    },
+    {
+      "id": "tgos-butterfly-map",
+      "kind": "project",
+      "tags": [
+        "esg",
+        "it",
+        "guide"
+      ],
+      "period": {
+        "zh": "大學期間",
+        "en": "University project"
+      },
+      "title": {
+        "zh": "TGOS 蝴蝶觀察地圖競賽作品",
+        "en": "TGOS Butterfly Observation Map Competition"
+      },
+      "org": {
+        "zh": "TGOS 地圖應用競賽",
+        "en": "TGOS Map Application Competition"
+      },
+      "summary": {
+        "zh": "整理蝴蝶觀察資訊並製作互動式地圖參賽，以空間視角呈現觀察地點與蝴蝶紀錄。",
+        "en": "Organised butterfly-observation information into an interactive competition map, presenting observation sites and records through a spatial perspective."
+      },
+      "bullets": [],
+      "imageLabel": {
+        "zh": "蝴蝶觀察互動地圖概念畫面",
+        "en": "Interactive butterfly observation map concept"
+      }
+    },
+    {
+      "id": "butterfly-volunteer",
+      "kind": "volunteer",
+      "tags": [
+        "esg",
+        "guide",
+        "other"
+      ],
+      "period": {
+        "zh": "大學期間",
+        "en": "University years"
+      },
+      "title": {
+        "zh": "蝴蝶保育與環境教育志工",
+        "en": "Butterfly Conservation & Environmental Education Volunteer"
+      },
+      "org": {
+        "zh": "台灣蝴蝶保育協會",
+        "en": "Taiwan Butterfly Conservation Association"
+      },
+      "summary": {
+        "zh": "參與協會志工活動，累積蝴蝶觀察、保育推廣與環境教育經驗，並成為後續蝴蝶辨識 AR App 的創作基礎。",
+        "en": "Supported association activities and gained experience in butterfly observation, conservation outreach and environmental education, later informing the Butterfly Identification AR App."
+      },
+      "bullets": [],
+      "image": "/taiwan-butterfly-conservation-volunteer.jpg",
+      "imageLabel": {
+        "zh": "台灣蝴蝶保育協會棲地維護志工活動",
+        "en": "Habitat stewardship volunteering with the Taiwan Butterfly Conservation Association"
+      }
+    },
+    {
+      "id": "butterfly-ar",
+      "kind": "project",
+      "tags": [
+        "it",
+        "guide",
+        "other"
+      ],
+      "period": {
+        "zh": "大學期間",
+        "en": "University project"
+      },
+      "title": {
+        "zh": "蝴蝶辨識 AR 環境教育 App",
+        "en": "Butterfly Identification AR App"
+      },
+      "org": {
+        "zh": "評審獎",
+        "en": "Judges’ Award"
+      },
+      "summary": {
+        "zh": "結合台灣蝴蝶保育協會志工經驗，打造沉浸式行動 AR 蝴蝶辨識與環境教育應用。",
+        "en": "Built an immersive mobile AR app for butterfly identification after volunteering with the Taiwan Butterfly Conservation Association."
+      },
+      "bullets": [],
+      "image": "/butterfly-app-video-frame.jpg",
+      "link": "https://www.youtube.com/watch?v=ldLmzGwkLnI",
+      "imageLabel": {
+        "zh": "AR App／可替換作品圖",
+        "en": "AR app / replaceable image"
+      }
+    },
+    {
+      "id": "taiwan-travel-guide",
+      "kind": "project",
+      "tags": [
+        "it",
+        "guide",
+        "other"
+      ],
+      "period": {
+        "zh": "2026.01",
+        "en": "Jan 2026"
+      },
+      "title": {
+        "zh": "Build Your Taiwan Journey 互動旅遊網站",
+        "en": "Build Your Taiwan Journey — Interactive Travel Website"
+      },
+      "org": {
+        "zh": "待業期間自主專案・與設計師 Kathleen 合作",
+        "en": "Independent career-break project · Co-created with designer Kathleen"
+      },
+      "summary": {
+        "zh": "與設計師共同規劃並製作台灣旅遊互動網站，讓旅客依行程與偏好快速探索台灣必去景點、必吃美食與在地資訊。",
+        "en": "Co-created an interactive Taiwan travel website that helps visitors quickly discover must-see places, local food and practical context based on their itinerary and preferences."
+      },
+      "bullets": [
+        {
+          "zh": "負責旅遊知識、內容架構、使用情境與互動體驗協作，將導覽經驗轉化為可自行探索的數位產品。",
+          "en": "Contributed travel knowledge, content structure, user scenarios and experience design, translating guiding expertise into a self-directed digital product."
+        },
+        {
+          "zh": "以遊戲化入口與簡易選擇流程降低資訊負擔，並整理圖片、食譜與參考來源。",
+          "en": "Used a playful entry and simple choice flow to reduce information overload, with curated photo, food and reference sources."
+        }
+      ],
+      "link": "https://joy-8831.github.io/taiwan-travel-guide/",
+      "image": "/build-your-taiwan-journey.png",
+      "imageLabel": {
+        "zh": "互動旅遊網站",
+        "en": "Interactive travel website"
+      }
+    },
+    {
+      "id": "ntnu-picture-book-site",
+      "kind": "project",
+      "tags": [
+        "esg",
+        "guide",
+        "other"
+      ],
+      "period": {
+        "zh": "2019",
+        "en": "2019"
+      },
+      "title": {
+        "zh": "原創環境繪本《生命保衛戰》",
+        "en": "Life Defence Battle — Original Environmental Picture Book"
+      },
+      "org": {
+        "zh": "國立臺灣師範大學｜繪本創作",
+        "en": "National Taiwan Normal University | Picture-book creation"
+      },
+      "summary": {
+        "zh": "創作 24 頁原創環境繪本《生命保衛戰》，以圖像與故事呈現生態保育與環境教育議題。",
+        "en": "Created the 24-page original environmental picture book Life Defence Battle, using illustration and storytelling to explore ecology and environmental education."
+      },
+      "bullets": [
+        {
+          "zh": "從故事構想、文字到插畫皆由本人完成，將環境議題轉化為容易閱讀的敘事作品。",
+          "en": "Developed the story concept, writing and illustrations, translating environmental themes into an approachable narrative."
+        },
+        {
+          "zh": "完整繪本已整理為獨立閱讀頁，可逐頁翻閱。",
+          "en": "The complete book is available in a dedicated page-turning reader."
+        }
+      ],
+      "link": "/picture-book",
+      "image": "/life-defence-picture-book.png",
+      "imageLabel": {
+        "zh": "原創環境繪本《生命保衛戰》",
+        "en": "Original environmental picture book Life Defence Battle"
+      }
+    },
+    {
+      "id": "sticker-design",
+      "kind": "project",
+      "tags": [
+        "other"
+      ],
+      "period": {
+        "zh": "個人創作",
+        "en": "Personal creative work"
+      },
+      "title": {
+        "zh": "《貓咪瑜珈老師（基礎動作）》LINE 訊息貼圖",
+        "en": "Cat as Yoga Teacher (Basic) — LINE Message Stickers"
+      },
+      "org": {
+        "zh": "LINE Creators Market｜24 張訊息貼圖",
+        "en": "LINE Creators Market | 24 message stickers"
+      },
+      "summary": {
+        "zh": "以可愛貓咪示範 24 種經典基礎瑜珈姿勢，並預留文字空間，讓使用者能自由加入訊息，結合瑜珈教學、角色插畫與日常聊天。",
+        "en": "Illustrated 24 classic basic yoga poses with an adorable cat and space for custom text, designed for both yoga practice and everyday chats."
+      },
+      "bullets": [
+        {
+          "zh": "貼圖 ID 46183296｜版本 1｜語言：繁體中文、英文。",
+          "en": "Sticker ID 46183296 | Version 1 | Languages: Traditional Chinese and English."
+        },
+        {
+          "zh": "從山式、下犬式、戰士式到攤屍式，以完整系列呈現基礎瑜珈動作。",
+          "en": "Covers a complete basic-yoga sequence, from Mountain and Downward Dog to Warrior and Corpse poses."
+        }
+      ],
+      "link": "https://line.me/S/sticker/35434888",
+      "image": "/cat-yoga-stickers.png",
+      "imageLabel": {
+        "zh": "《貓咪瑜珈老師（基礎動作）》24 張貼圖預覽",
+        "en": "Preview of 24 Cat as Yoga Teacher stickers"
+      }
+    },
+    {
+      "id": "deer-stickers",
+      "kind": "project",
+      "tags": [
+        "guide",
+        "other"
+      ],
+      "period": {
+        "zh": "個人創作",
+        "en": "Personal creative work"
+      },
+      "title": {
+        "zh": "《鹿鹿上鹿啦》LINE 原創貼圖",
+        "en": "Deer, You Are Everywhere — LINE Stickers"
+      },
+      "org": {
+        "zh": "LINE Creators Market｜16 張貼圖",
+        "en": "LINE Creators Market | 16 stickers"
+      },
+      "summary": {
+        "zh": "以臺灣特有亞種臺灣水鹿為主角，運用「鹿」的諧音、冷笑話與生活情境，將本土野生動物轉化為具有辨識度的聊天角色。",
+        "en": "Turned the Formosan sambar deer, a subspecies native to Taiwan, into a distinctive chat character through deer-related wordplay, humour and everyday situations."
+      },
+      "bullets": [
+        {
+          "zh": "貼圖 ID 22054400｜版本 1｜語言：繁體中文、英文。",
+          "en": "Sticker ID 22054400 | Version 1 | Languages: Traditional Chinese and English."
+        },
+        {
+          "zh": "以 16 張插畫結合臺灣生態特色、角色設計與中文諧音創意。",
+          "en": "Combines Taiwanese ecology, character design and Chinese wordplay across 16 illustrations."
+        }
+      ],
+      "link": "https://line.me/S/sticker/16051689",
+      "image": "/deer-stickers.png",
+      "imageLabel": {
+        "zh": "《鹿鹿上鹿啦》16 張貼圖預覽",
+        "en": "Preview of 16 Deer, You Are Everywhere stickers"
+      }
+    },
+    {
+      "id": "community",
+      "kind": "volunteer",
+      "tags": [
+        "guide",
+        "other"
+      ],
+      "period": {
+        "zh": "持續參與",
+        "en": "Ongoing"
+      },
+      "title": {
+        "zh": "活動策劃、導覽與社群參與",
+        "en": "Events, Guiding & Community Engagement"
+      },
+      "org": {
+        "zh": "台灣與德國",
+        "en": "Taiwan & Germany"
+      },
+      "summary": {
+        "zh": "以細緻觀察與真實連結為核心，策劃戶外踏查、城市導覽、速寫活動與國際地理年會。",
+        "en": "Organised field trips, city tours, urban-sketching sessions and the 2020 International Geography Conference."
+      },
+      "bullets": [
+        {
+          "zh": "舉辦免費城市速寫活動，促進社群連結並支援募款倡議。",
+          "en": "Organised free urban-sketching events to build community and support fundraising."
+        }
+      ],
+      "link": "https://halfgeographer.wordpress.com/2025/06/12/sketch-tour/",
+      "image": "/sketch-tour-collage.png",
+      "imageLabel": {
+        "zh": "城市速寫導覽活動與參與者作品",
+        "en": "Urban sketch tour and participants’ artwork"
+      }
+    }
+  ],
+  "certificates": [
+    {
+      "title": {
+        "zh": "環境教育人員認證",
+        "en": "Environmental Education Certificate"
+      },
+      "issuer": {
+        "zh": "台灣環境部",
+        "en": "Ministry of Environment, Taiwan"
+      },
+      "period": {
+        "zh": "2026.03 核發",
+        "en": "Issued Mar 2026"
+      },
+      "detail": {
+        "zh": "具備依法執行與推廣環境教育的專業資格。",
+        "en": "Qualified to deliver and promote environmental education in Taiwan."
+      },
+      "tone": "#d8f36a"
+    },
+    {
+      "title": {
+        "zh": "中文母語 · 英文 C1 · 德文 B1",
+        "en": "Mandarin Native · English C1 · German B1"
+      },
+      "issuer": {
+        "zh": "跨文化溝通與國際協作",
+        "en": "Cross-cultural communication & international collaboration"
+      },
+      "period": {
+        "zh": "語言能力",
+        "en": "Languages"
+      },
+      "detail": {
+        "zh": "跨文化學習、研究與全球企業協作所需的語言能力。",
+        "en": "Language capability for cross-cultural study, research and global collaboration."
+      },
+      "tone": "#a9ddff"
+    },
+    {
+      "title": {
+        "zh": "CSRD 基礎",
+        "en": "CSRD Fundamentals"
+      },
+      "issuer": {
+        "zh": "Sustainability Reporting Institute",
+        "en": "Sustainability Reporting Institute"
+      },
+      "period": {
+        "zh": "2025.09 核發",
+        "en": "Issued Sep 2025"
+      },
+      "detail": {
+        "zh": "完成 CSRD 與永續報導基礎培訓。證書編號：68b6a8e094d1ed1de70e228f",
+        "en": "Completed foundational training in CSRD and sustainability reporting. Credential ID: 68b6a8e094d1ed1de70e228f"
+      },
+      "tone": "#a8d8b9"
+    },
+    {
+      "title": {
+        "zh": "循環經濟－永續材料管理",
+        "en": "Circular Economy – Sustainable Materials Management"
+      },
+      "issuer": {
+        "zh": "Coursera",
+        "en": "Coursera"
+      },
+      "period": {
+        "zh": "2025.09 核發",
+        "en": "Issued Sep 2025"
+      },
+      "detail": {
+        "zh": "完成循環經濟原則與永續材料管理的跨領域課程。",
+        "en": "Completed an interdisciplinary course on circular-economy principles and sustainable materials management."
+      },
+      "image": "/circular-economy-certificate.png",
+      "tone": "#f3c36f"
+    },
+    {
+      "title": {
+        "zh": "氣候相關財務揭露工作小組（TCFD）",
+        "en": "Task Force on Climate-related Financial Disclosures (TCFD)"
+      },
+      "issuer": {
+        "zh": "The CPD Certification Service",
+        "en": "The CPD Certification Service"
+      },
+      "period": {
+        "zh": "2025.09 核發",
+        "en": "Issued Sep 2025"
+      },
+      "detail": {
+        "zh": "完成以 TCFD 氣候相關財務揭露框架為主題的 CPD 認證培訓。",
+        "en": "Completed CPD-certified training on the TCFD framework for climate-related financial disclosures."
+      },
+      "tone": "#9dd5e8"
+    },
+    {
+      "title": {
+        "zh": "RYT 200 瑜珈師資培訓",
+        "en": "RYT 200 Yoga Teacher Training"
+      },
+      "issuer": {
+        "zh": "ULU Yoga／Yoga Alliance",
+        "en": "ULU Yoga / Yoga Alliance"
+      },
+      "period": {
+        "zh": "2026.05 核發",
+        "en": "Completed May 12, 2026"
+      },
+      "detail": {
+        "zh": "完成 200 小時多流派瑜珈師資課程，培訓聚焦傳統哈達瑜珈與流動瑜珈。",
+        "en": "Completed a 200-hour multi-style yoga teacher training course focused on traditional hatha and vinyasa yoga."
+      },
+      "image": "/ryt200-certificate.jpg",
+      "tone": "#e6c6ff"
+    },
+    {
+      "title": {
+        "zh": "救生員證照",
+        "en": "Lifeguard Certificate"
+      },
+      "issuer": {
+        "zh": "核發單位待補",
+        "en": "Issuer to be added"
+      },
+      "period": {
+        "zh": "日期與效期待補",
+        "en": "Issue and expiry dates to be added"
+      },
+      "detail": {
+        "zh": "水域安全、緊急應變與救援訓練；證照資訊待補。",
+        "en": "Training in water safety, emergency response and rescue; credential details to be added."
+      },
+      "tone": "#ffc98d"
+    }
+  ],
+  "tags": [
+    {
+      "id": "esg",
+      "label": {
+        "zh": "永續 & ESG",
+        "en": "Sustainability & ESG"
+      },
+      "color": "#9aaa63"
+    },
+    {
+      "id": "it",
+      "label": {
+        "zh": "IT & Data",
+        "en": "IT & Data"
+      },
+      "color": "#6f9fba"
+    },
+    {
+      "id": "guide",
+      "label": {
+        "zh": "導遊 & 環境教育",
+        "en": "Guiding & Environmental Education"
+      },
+      "color": "#c47f5a"
+    },
+    {
+      "id": "other",
+      "label": {
+        "zh": "其他興趣",
+        "en": "Other Interests"
+      },
+      "color": "#917a9e"
+    }
+  ],
+  "profile": {
+    "name": "Ting-Yu Liu",
+    "chineseName": "劉庭妤",
+    "role": {
+      "zh": "永續｜數位改善",
+      "en": "Sustainability | Digital Improvement"
+    },
+    "intro": {
+      "zh": "我把複雜的永續與營運問題轉化成可執行的策略、清楚的指標與實用的數位工具；並結合 IT、資料與創意參與，設計自動化流程、儀表板、網站與學習體驗，讓跨文化團隊、客戶與社群更容易理解問題、貢獻想法並採取行動。",
+      "en": "I turn complex sustainability and operational challenges into practical strategies, clear metrics and useful digital tools. Combining IT, data and creative, participatory approaches, I build automations, dashboards, websites and learning experiences that help cross-cultural teams, customers and communities understand problems, contribute ideas and take action."
+    },
+    "location": {
+      "zh": "台北・混合辦公・亞太跨國合作",
+      "en": "Taipei, Taiwan · Hybrid · APAC collaboration"
+    },
+    "profileText": {
+      "zh": "具環境科學、IT 服務營運與企業分析背景，專長涵蓋 CSRD、SBTi、供應鏈減碳、資料治理、Power BI 與變革推動。",
+      "en": "An interdisciplinary specialist across environmental science, IT service operations and enterprise analytics, with strengths in CSRD, SBTi, supply-chain decarbonisation, data governance, Power BI and change enablement."
+    },
+    "skillText": {
+      "zh": "Power BI・Power Automate・GIS・HTML・JavaScript・Python・R・Microsoft 365",
+      "en": "Power BI · Power Automate · GIS · HTML · JavaScript · Python · R · Microsoft 365"
+    },
+    "languages": {
+      "zh": "中文（母語）・英文 C1・德文 B1",
+      "en": "Mandarin (native) · English C1 · German B1"
+    }
+  }
+}
