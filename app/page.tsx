@@ -887,13 +887,13 @@ export default function Home() {
 
   // The public GitHub build is intentionally read-only. These callbacks keep
   // the shared presentation markup simple while performing no mutations.
-  const updateProfile = () => undefined;
-  const updateName = () => undefined;
-  const updateItemText = () => undefined;
-  const updateBullet = () => undefined;
-  const updateTeamText = () => undefined;
-  const updateTeamBullet = () => undefined;
-  const updateCertificate = () => undefined;
+  const updateProfile = (..._args: unknown[]) => undefined;
+  const updateName = (..._args: unknown[]) => undefined;
+  const updateItemText = (..._args: unknown[]) => undefined;
+  const updateBullet = (..._args: unknown[]) => undefined;
+  const updateTeamText = (..._args: unknown[]) => undefined;
+  const updateTeamBullet = (..._args: unknown[]) => undefined;
+  const updateCertificate = (..._args: unknown[]) => undefined;
 
   const itemTools = (_item: Item) => null;
 
