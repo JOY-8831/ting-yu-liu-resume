@@ -314,9 +314,9 @@ body{background:var(--cream)}
 .certTrack{display:flex;width:max-content;gap:10px}
 .certGroup{display:flex;gap:10px}
 .certCard{width:clamp(260px,24vw,330px);flex:0 0 auto}
-.certGroupClone{pointer-events:none;user-select:none}
+.certGroupClone{user-select:none}
 .certCloneLink{margin-top:auto;padding-top:10px;font-size:11px;font-weight:700;color:#c8d3ce}
-.certCloneToggle{margin-top:16px;min-height:38px;padding:9px 12px;border:1px solid rgba(255,255,255,.34);border-radius:9px;background:rgba(255,255,255,.08);font-size:10px;font-weight:800;color:#fff}
+.certCloneToggle{margin-top:auto;padding-top:9px;min-height:38px;padding-right:12px;padding-bottom:9px;padding-left:12px;border:1px solid rgba(255,255,255,.34);border-radius:9px;background:rgba(255,255,255,.08);font-size:10px;font-weight:800;color:#fff}
 @media(prefers-reduced-motion:reduce){.certDetails summary:after{transition:none}.certGroupClone{display:none}}
 @media(max-width:640px){.certCard{width:min(82vw,310px)}}
 

@@ -80,20 +80,15 @@ const initialCertificates: Certificate[] = [
     issuer: { zh: "台灣環境部", en: "Ministry of Environment, Taiwan" },
     period: { zh: "2026.03 核發", en: "Issued Mar 2026" },
     detail: { zh: "具備依法執行與推廣環境教育的專業資格。", en: "Qualified to deliver and promote environmental education in Taiwan." },
+    image: "/environmental-education-certificate.png",
     tone: "#d8f36a",
-  },
-  {
-    title: { zh: "中文母語 · 英文 C1 · 德文 B1", en: "Mandarin Native · English C1 · German B1" },
-    issuer: { zh: "跨文化溝通與國際協作", en: "Cross-cultural communication & international collaboration" },
-    period: { zh: "語言能力", en: "Languages" },
-    detail: { zh: "跨文化學習、研究與全球企業協作所需的語言能力。", en: "Language capability for cross-cultural study, research and global collaboration." },
-    tone: "#a9ddff",
   },
   {
     title: { zh: "CSRD 基礎", en: "CSRD Fundamentals" },
     issuer: { zh: "Sustainability Reporting Institute", en: "Sustainability Reporting Institute" },
     period: { zh: "2025.09 核發", en: "Issued Sep 2025" },
     detail: { zh: "完成 CSRD 與永續報導基礎培訓。證書編號：68b6a8e094d1ed1de70e228f", en: "Completed foundational training in CSRD and sustainability reporting. Credential ID: 68b6a8e094d1ed1de70e228f" },
+    image: "/csrd-certificate.jpeg",
     tone: "#a8d8b9",
   },
   {
@@ -109,6 +104,7 @@ const initialCertificates: Certificate[] = [
     issuer: { zh: "The CPD Certification Service", en: "The CPD Certification Service" },
     period: { zh: "2025.09 核發", en: "Issued Sep 2025" },
     detail: { zh: "完成以 TCFD 氣候相關財務揭露框架為主題的 CPD 認證培訓。", en: "Completed CPD-certified training on the TCFD framework for climate-related financial disclosures." },
+    image: "/tcfd-certificate.png",
     tone: "#9dd5e8",
   },
   {
@@ -121,9 +117,9 @@ const initialCertificates: Certificate[] = [
   },
   {
     title: { zh: "救生員證照", en: "Lifeguard Certificate" },
-    issuer: { zh: "核發單位待補", en: "Issuer to be added" },
-    period: { zh: "日期與效期待補", en: "Issue and expiry dates to be added" },
-    detail: { zh: "水域安全、緊急應變與救援訓練；證照資訊待補。", en: "Training in water safety, emergency response and rescue; credential details to be added." },
+    issuer: { zh: "中華民國水上救生協會", en: "Water Life Saving Association, Republic of China" },
+    period: { zh: "2026.07 核發", en: "Issued Jul 2026" },
+    detail: { zh: "完成水域安全、緊急應變與救援訓練。", en: "Completed training in water safety, emergency response and rescue." },
     tone: "#ffc98d",
   },
 ];
@@ -138,10 +134,9 @@ const initialItems: Item[] = [
     org: { zh: "DSV - Global Transport and Logistics｜台北・混合辦公", en: "DSV - Global Transport and Logistics | Taipei · Hybrid" },
     summary: { zh: "與亞太區重要客戶經理及跨功能團隊合作，將物流資料轉化為可信賴的碳排放分析、客戶永續報告與可行洞察。", en: "Partner with Key Account Managers and cross-functional teams across APAC to turn logistics data into reliable carbon-emission analysis, customer sustainability reports and actionable insights." },
     bullets: [
-      { zh: "理解亞太客戶需求，依公認碳盤查方法與物流參數處理、驗證及分析貨運資料，量化運輸排放。", en: "Understand APAC customer needs and process, validate and analyse freight data using recognised carbon-accounting methodologies and logistics parameters." },
-      { zh: "製作客戶導向的永續報告，以清楚的資料視覺化呈現結果與可行建議。", en: "Produce customer-facing sustainability reports with clear data visualisation and actionable recommendations." },
-      { zh: "透過工作流程優化、自動化與標準化，提升碳報告的效率、一致性與資料品質。", en: "Improve carbon-reporting efficiency, consistency and data quality through workflow optimisation, automation and standardisation." },
-      { zh: "促進亞太跨團隊知識分享，持續改善碳排放回報實務。", en: "Enable APAC knowledge sharing and continuous improvement of carbon-reporting practices across functions." },
+      { zh: "分析減碳方案、碳交易模式、方法學與成本，協助亞太重要客戶經理提出客戶減碳建議。", en: "Analyzed decarbonization and carbon-market models, equipping APAC KAMs with customer-ready insights." },
+      { zh: "產製倉儲 CO₂e 報告，依公認方法將公司 Scope 1、2 排放轉化為客戶 Scope 3 資訊。", en: "Produced warehouse CO₂e reports, translating Scope 1–2 emissions into customer Scope 3 data using recognised methods." },
+      { zh: "開發三套資料處理、報告產製及視覺檢核工具並設計流程，使整體效率提升 40%。", en: "Built three tools and workflows for data preparation, reporting and visual QA, improving efficiency by 40%." },
     ],
     imageLabel: { zh: "物流碳排放分析／可替換作品圖", en: "Logistics carbon analysis / replaceable image" },
   },
@@ -169,7 +164,7 @@ const initialItems: Item[] = [
         name: { zh: "Global Sustainability", en: "Global Sustainability" },
         period: { zh: "2024.07–2024.09", en: "Jul–Sep 2024" },
         bullets: [
-          { zh: "支援全球 ESG／SE 報告系統，強化跨國資料品質、自動驗證與即時事故通報。", en: "Supported the global ESG/SE reporting system through multinational data-quality controls, automated validation and incident reporting." },
+          { zh: "推動即時事故通報系統於 1,400+ 個據點導入，協調利害關係人進行 GDPR 合規檢視、使用者驗收測試及問題回報。", en: "Led the rollout of an Immediate Incident Reporting system across 1,400+ sites, coordinating stakeholder validation, GDPR reviews, user acceptance testing and issue reporting." },
           { zh: "主導 ESG 自動化工具的供應商接洽與評估，向高階領導團隊提出可行方案。", en: "Led vendor engagement and assessment of ESG automation tools, presenting viable solutions to the Senior Leadership Team." },
           { zh: "設計績效追蹤與自動驗證規則，使 140+ 國 ESG 資料完整性提升 45%。", en: "Improved ESG data integrity by 45% across 140+ countries through performance trackers and automated validation rules." },
           { zh: "撰寫符合 ISO 14001 的健康與安全手冊，強化內部永續與合規標準。", en: "Authored a Health & Safety manual aligned with ISO 14001, reinforcing internal sustainability and compliance standards." },
@@ -215,6 +210,37 @@ const initialItems: Item[] = [
       { zh: "重新設計圖表與報告版面，使碳排結果更容易被客戶理解與使用。", en: "Improved charts and report layouts so carbon results are easier for customers to understand and use." },
     ],
     imageLabel: { zh: "三套工具的匿名化流程示意", en: "Anonymised workflow across three tools" },
+  },
+  {
+    id: "warehouse-co2e-reporting",
+    kind: "project",
+    tags: ["esg", "it"],
+    period: { zh: "2026 – 至今", en: "2026 – Present" },
+    title: { zh: "倉儲 CO₂e 報告計畫", en: "Warehouse CO₂e Reporting Initiative" },
+    org: { zh: "DSV｜客戶碳排報告解決方案", en: "DSV | Customer Carbon Reporting Solutions" },
+    summary: { zh: "參與建置倉儲 CO₂e 報告方案，釐清公司 Scope 1、2 排放如何轉化為客戶供應鏈 Scope 3 資訊，並將碳盤查邏輯轉化為可使用的報告、介面與作業流程。", en: "Contribute to a warehouse CO₂e reporting solution that translates DSV Scope 1 and 2 emissions into relevant customer Scope 3 information, turning carbon-accounting logic into usable reports, interfaces and workflows." },
+    bullets: [
+      { zh: "參與產製與驗證倉儲碳排報告，梳理資料需求、計算邏輯與交付流程。", en: "Support the production and validation of warehouse-emissions reports, mapping data requirements, calculation logic and delivery steps." },
+      { zh: "設計報告介面與端到端流程，使內部團隊與客戶更容易理解及使用排放資料。", en: "Design report interfaces and end-to-end workflows so internal teams and customers can interpret and use emissions data more easily." },
+      { zh: "研究碳交易及相關商業模式，評估碳排資料如何連結客戶減碳與服務機會。", en: "Research carbon-trading and related business models to understand how emissions data can support customer decarbonisation and service opportunities." },
+    ],
+    imageLabel: { zh: "倉儲 CO₂e 報告與資料流程示意", en: "Warehouse CO₂e reporting and data-flow concept" },
+  },
+  {
+    id: "water-vision-guides",
+    kind: "project",
+    tags: ["esg", "it", "guide"],
+    period: { zh: "2026.09", en: "Sep 2026" },
+    title: { zh: "水視界引路人｜水利青年培育計畫第一名", en: "Water Vision Guides | 1st Place, Water Youth Programme" },
+    org: { zh: "經濟部水利署 × 天下雜誌｜團隊「水事件路人」", en: "Water Resources Agency × CommonWealth Magazine | Team Water Passersby" },
+    summary: { zh: "針對極端降雨下官方防災資訊與民眾感受的落差，設計 Experience、Evidence、Empowerment「3E」雙向溝通模型，將專業術語轉化為可理解、可判斷、可行動的資訊。", en: "Designed a two-way 3E communication model—Experience, Evidence and Empowerment—to translate technical flood-risk information into messages people can understand, assess and act on." },
+    bullets: [
+      { zh: "以互動平台及 QR Code 模擬淹水決策，提供同理說明、具體證據與行動指引。", en: "Built a QR-based interactive simulation combining empathetic framing, concrete evidence and practical actions." },
+      { zh: "現場實測使參與者決策信心由 3.5 提升至 3.7，並獲決選第一名。", en: "Increased participants’ decision-confidence score from 3.5 to 3.7 in live testing and won first place." },
+    ],
+    link: "https://river.udn.com/river/story/124359/9790708",
+    image: "/water-youth-first-place.jpg",
+    imageLabel: { zh: "水視界引路人團隊獲水利青年培育計畫第一名", en: "Water Vision Guides team receiving first place in the Water Youth Programme" },
   },
   {
     id: "saf-integrated-dashboard",
@@ -369,7 +395,7 @@ const initialItems: Item[] = [
     id: "tgos-butterfly-map",
     kind: "project",
     tags: ["esg", "it", "guide"],
-    period: { zh: "大學期間", en: "University project" },
+    period: { zh: "2019", en: "2019" },
     title: { zh: "TGOS 蝴蝶觀察地圖競賽作品", en: "TGOS Butterfly Observation Map Competition" },
     org: { zh: "TGOS 地圖應用競賽", en: "TGOS Map Application Competition" },
     summary: { zh: "整理蝴蝶觀察資訊並製作互動式地圖參賽，以空間視角呈現觀察地點與蝴蝶紀錄。", en: "Organised butterfly-observation information into an interactive competition map, presenting observation sites and records through a spatial perspective." },
@@ -380,7 +406,7 @@ const initialItems: Item[] = [
     id: "butterfly-volunteer",
     kind: "volunteer",
     tags: ["esg", "guide", "other"],
-    period: { zh: "大學期間", en: "University years" },
+    period: { zh: "2018", en: "2018" },
     title: { zh: "蝴蝶保育與環境教育志工", en: "Butterfly Conservation & Environmental Education Volunteer" },
     org: { zh: "台灣蝴蝶保育協會", en: "Taiwan Butterfly Conservation Association" },
     summary: { zh: "參與協會志工活動，累積蝴蝶觀察、保育推廣與環境教育經驗，並成為後續蝴蝶辨識 AR App 的創作基礎。", en: "Supported association activities and gained experience in butterfly observation, conservation outreach and environmental education, later informing the Butterfly Identification AR App." },
@@ -391,7 +417,7 @@ const initialItems: Item[] = [
     id: "butterfly-ar",
     kind: "project",
     tags: ["it", "guide", "other"],
-    period: { zh: "大學期間", en: "University project" },
+    period: { zh: "2020", en: "2020" },
     title: { zh: "蝴蝶辨識 AR 環境教育 App", en: "Butterfly Identification AR App" },
     org: { zh: "評審獎", en: "Judges’ Award" },
     summary: { zh: "結合台灣蝴蝶保育協會志工經驗，打造沉浸式行動 AR 蝴蝶辨識與環境教育應用。", en: "Built an immersive mobile AR app for butterfly identification after volunteering with the Taiwan Butterfly Conservation Association." },
@@ -436,7 +462,7 @@ const initialItems: Item[] = [
     id: "sticker-design",
     kind: "project",
     tags: ["other"],
-    period: { zh: "個人創作", en: "Personal creative work" },
+    period: { zh: "2026", en: "2026" },
     title: { zh: "《貓咪瑜珈老師（基礎動作）》LINE 訊息貼圖", en: "Cat as Yoga Teacher (Basic) — LINE Message Stickers" },
     org: { zh: "LINE Creators Market｜24 張訊息貼圖", en: "LINE Creators Market | 24 message stickers" },
     summary: { zh: "以可愛貓咪示範 24 種經典基礎瑜珈姿勢，並預留文字空間，讓使用者能自由加入訊息，結合瑜珈教學、角色插畫與日常聊天。", en: "Illustrated 24 classic basic yoga poses with an adorable cat and space for custom text, designed for both yoga practice and everyday chats." },
@@ -452,7 +478,7 @@ const initialItems: Item[] = [
     id: "deer-stickers",
     kind: "project",
     tags: ["guide", "other"],
-    period: { zh: "個人創作", en: "Personal creative work" },
+    period: { zh: "2021", en: "2021" },
     title: { zh: "《鹿鹿上鹿啦》LINE 原創貼圖", en: "Deer, You Are Everywhere — LINE Stickers" },
     org: { zh: "LINE Creators Market｜16 張貼圖", en: "LINE Creators Market | 16 stickers" },
     summary: { zh: "以臺灣特有亞種臺灣水鹿為主角，運用「鹿」的諧音、冷笑話與生活情境，將本土野生動物轉化為具有辨識度的聊天角色。", en: "Turned the Formosan sambar deer, a subspecies native to Taiwan, into a distinctive chat character through deer-related wordplay, humour and everyday situations." },
@@ -487,6 +513,14 @@ const creativeIds = new Set([
   "sticker-design",
   "deer-stickers",
   "community",
+]);
+
+const experienceIntegratedProjectIds = new Set([
+  "warehouse-co2e-reporting",
+  "dsv-reporting-tools",
+  "saf-integrated-dashboard",
+  "saf-marketing-site",
+  "powerbi-service-dashboards",
 ]);
 
 const ui = {
@@ -531,6 +565,12 @@ const ui = {
     present: "Present",
   },
 };
+
+function latestYear(item: Item): number {
+  if (/present|至今|ongoing|持續/i.test(`${item.period.en} ${item.period.zh}`)) return 9999;
+  const years = `${item.period.en} ${item.period.zh}`.match(/\b(?:19|20)\d{2}\b/g)?.map(Number) ?? [];
+  return years.length ? Math.max(...years) : 0;
+}
 
 function EditableText({ value }: { value: string; editing: boolean; multiline?: boolean; onChange: (value: string) => void }) {
   return <>{value}</>;
@@ -649,6 +689,8 @@ export default function Home() {
   const [lang, setLang] = useState<Lang>("en");
   const [activeTags, setActiveTags] = useState<Tag[]>([]);
   const [view, setView] = useState<"cards" | "resume">("cards");
+  const [openCertificates, setOpenCertificates] = useState<number[]>([]);
+  const toggleCertificateImage = (index: number) => setOpenCertificates((current) => current.includes(index) ? current.filter((item) => item !== index) : [...current, index]);
   const editing = false;
   const portfolio = initialPortfolio;
   const certViewportRef = useRef<HTMLDivElement>(null);
@@ -691,13 +733,14 @@ export default function Home() {
     const animate = (now: number) => {
       const elapsed = Math.min(now - lastFrame, 50);
       lastFrame = now;
-      if (!reducedMotion && !dragging && !hovered && !focused && now >= pauseUntil) {
-        viewport.scrollLeft = wrapPosition(viewport.scrollLeft - elapsed * 0.03);
+      if (!reducedMotion && !dragging && !hovered && !focused && !viewport.querySelector(".certDetails[open]") && now >= pauseUntil) {
+        viewport.scrollLeft = wrapPosition(viewport.scrollLeft + elapsed * 0.03);
       }
       animationFrame = window.requestAnimationFrame(animate);
     };
     const handlePointerDown = (event: PointerEvent) => {
       if (event.pointerType !== "mouse" || event.button !== 0) return;
+      if ((event.target as HTMLElement).closest("a, button, input, label, summary, details")) return;
       dragging = true;
       moved = false;
       startX = event.clientX;
@@ -736,7 +779,7 @@ export default function Home() {
     const handleFocusIn = () => { focused = true; };
     const handleFocusOut = (event: FocusEvent) => { focused = viewport.contains(event.relatedTarget as Node | null); };
 
-    if (!reducedMotion) viewport.scrollLeft = Math.max(loopWidth() - 1, 0);
+    viewport.scrollLeft = 0;
     viewport.addEventListener("pointerdown", handlePointerDown);
     viewport.addEventListener("pointermove", handlePointerMove);
     viewport.addEventListener("pointerup", endPointerDrag);
@@ -796,7 +839,8 @@ export default function Home() {
     const timelineItems = filtered.filter((item) => !creativeIds.has(item.id));
     const byId = new Map(timelineItems.map((item) => [item.id, item]));
     const groups: { key: string; label: Localized; pathIds: string[]; projectIds: string[] }[] = [
-      { key: "dsv", label: { zh: "2026–至今", en: "2026–Now" }, pathIds: ["sustainability-specialist"], projectIds: ["dsv-reporting-tools"] },
+      { key: "dsv", label: { zh: "2026–至今", en: "2026–Now" }, pathIds: ["sustainability-specialist"], projectIds: ["warehouse-co2e-reporting", "dsv-reporting-tools"] },
+      { key: "water-youth", label: { zh: "2026.09", en: "Sep 2026" }, pathIds: [], projectIds: ["water-vision-guides"] },
       { key: "taiwan-journey", label: { zh: "2026.01", en: "Jan 2026" }, pathIds: [], projectIds: ["taiwan-travel-guide"] },
       { key: "it-service", label: { zh: "2025", en: "2025" }, pathIds: ["it-service-desk"], projectIds: [] },
       {
@@ -900,13 +944,16 @@ export default function Home() {
   const downloadHtml = () => {
     const sections = (Object.keys(sectionLabels) as Kind[])
       .map((kind) => {
-        const rows = filtered.filter((x) => x.kind === kind);
+        const rows = filtered
+          .filter((x) => !experienceIntegratedProjectIds.has(x.id))
+          .filter((x) => x.kind === kind)
+          .sort((a, b) => latestYear(b) - latestYear(a));
         if (!rows.length) return "";
-        return `<section><h2>${sectionLabels[kind][lang]}</h2>${rows.map((x) => `<article><div class="row"><h3>${x.title[lang]} · ${x.org[lang]}</h3><time>${x.period[lang]}</time></div><p>${x.summary[lang]}</p>${x.teams?.map((team) => `<div class="team"><h4>${team.name[lang]} <span>${team.period[lang]}</span></h4><ul>${team.bullets.map((b) => `<li>${b[lang]}</li>`).join("")}</ul></div>`).join("") ?? ""}${x.bullets.length ? `<ul>${x.bullets.map((b) => `<li>${b[lang]}</li>`).join("")}</ul>` : ""}${x.link ? `<p><a href="${x.link}">${x.link}</a></p>` : ""}</article>`).join("")}</section>`;
+        return `<section><h2>${sectionLabels[kind][lang]}</h2>${rows.map((x) => `<article><div class="row"><div><h3>${x.title[lang]}</h3><div class="org">${x.org[lang]}</div></div><time>${x.period[lang]}</time></div><p>${x.summary[lang]}</p>${x.teams?.map((team) => `<div class="team"><h4>${team.name[lang]} <span>${team.period[lang]}</span></h4><ul>${team.bullets.map((b) => `<li>${b[lang]}</li>`).join("")}</ul></div>`).join("") ?? ""}${x.bullets.length ? `<ul>${x.bullets.map((b) => `<li>${b[lang]}</li>`).join("")}</ul>` : ""}${x.link ? `<p><a href="${x.link}">${x.link}</a></p>` : ""}</article>`).join("")}</section>`;
       }).join("");
     const credentialsHtml = `<section><h2>${lang === "zh" ? "證照與資格" : "Certificates & Credentials"}</h2>${certificates.map((c) => `<article><div class="row"><h3>${c.title[lang]} · ${c.issuer[lang]}</h3><time>${c.period[lang]}</time></div><p>${c.detail[lang]}</p></article>`).join("")}</section>`;
     const html = `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Ting-Yu Liu — ${t.role}</title><style>
-      *{box-sizing:border-box}body{font-family:Arial,"Noto Sans TC",sans-serif;color:#172722;max-width:900px;margin:0 auto;padding:34px;font-size:11px;line-height:1.38}header{border-bottom:3px solid #172722;padding-bottom:14px;margin-bottom:18px}.top{display:flex;justify-content:space-between;gap:20px;align-items:end}h1{font-size:28px;margin:0;letter-spacing:-.5px}header h2{margin:3px 0 0;color:#29745d;font-size:15px}.contact{text-align:right}h2{font-size:14px;text-transform:uppercase;letter-spacing:1.5px;border-bottom:1px solid #8ba098;padding-bottom:4px;margin:15px 0 7px}article{break-inside:avoid;margin:0 0 9px}.row{display:flex;justify-content:space-between;gap:15px}h3{font-size:11.5px;margin:0}h4{font-size:10.5px;margin:7px 0 2px;border-bottom:1px solid #8ba098;padding-bottom:2px}h4 span{float:right;color:#51655e;font-weight:normal}time{white-space:nowrap;font-weight:bold;color:#51655e}p{margin:3px 0}ul{margin:4px 0 0;padding-left:19px;list-style:disc outside}li{padding-left:2px;margin:2px 0}.team{break-inside:avoid}.skills{background:#eef4f0;padding:8px 10px;margin-top:12px}@media print{@page{size:A4;margin:12mm}body{padding:0;max-width:none;font-size:9.5px}h1{font-size:24px}h2{margin-top:10px}article{margin-bottom:6px}}
+      *{box-sizing:border-box}body{font-family:Arial,"Noto Sans TC",sans-serif;color:#17364c;max-width:900px;margin:0 auto;padding:34px;font-size:11px;line-height:1.38}header{border-bottom:3px solid #17364c;padding-bottom:14px;margin-bottom:18px}.top{display:flex;justify-content:space-between;gap:20px;align-items:end}h1{font-size:28px;margin:0;letter-spacing:-.5px}header h2{margin:3px 0 0;color:#e5662f;font-size:15px}.contact{text-align:right;color:#17364c}h2{font-size:14px;text-transform:uppercase;letter-spacing:1.5px;border-bottom:1px solid #9ebbc7;padding-bottom:4px;margin:15px 0 7px}article{break-inside:avoid;margin:0 0 9px}.row{display:flex;justify-content:space-between;gap:15px}h3{font-size:11.5px;margin:0;color:#17364c}.org{color:#e5662f;font-weight:700;margin:1px 0 2px}h4{font-size:10.5px;margin:7px 0 2px;border-bottom:1px solid #9ebbc7;padding-bottom:2px;color:#17364c}h4 span{float:right;color:#557487;font-weight:normal}time{white-space:nowrap;font-weight:bold;color:#557487}p{margin:3px 0;color:#171717}ul{margin:4px 0 0;padding-left:19px;list-style:disc outside;color:#171717}li{padding-left:2px;margin:2px 0}li::marker{color:#e5662f}.team{break-inside:avoid}.skills{background:#edf7fa;padding:8px 10px;margin-top:12px;color:#17364c}a{color:#2f87a8}@media print{@page{size:A4;margin:12mm}body{padding:0;max-width:none;font-size:9.5px}h1{font-size:24px}h2{margin-top:10px}article{margin-bottom:6px}}
     </style></head><body><header><div class="top"><div><h1>${profile.name.toUpperCase()} ${profile.chineseName}</h1><h2>${t.role}</h2></div><div class="contact">tyjoy.liu@gmail.com<br>linkedin.com/in/ting-yu-liu-joy/<br>${t.location}</div></div><p>${t.profileText}</p></header>${sections}${credentialsHtml}<div class="skills"><strong>${t.skills}</strong><br>${t.skillText}<br>${t.languages}</div></body></html>`;
     const blob = new Blob([html], { type: "text/html;charset=utf-8" });
     const url = URL.createObjectURL(blob);
@@ -977,25 +1024,28 @@ export default function Home() {
                   <h4><EditableText value={cert.issuer[lang]} editing={editing} onChange={(value) => updateCertificate(certificateIndex, "issuer", value)} /></h4>
                   <p><EditableText value={cert.detail[lang]} editing={editing} multiline onChange={(value) => updateCertificate(certificateIndex, "detail", value)} /></p>
                   {cert.link && <a href={cert.link} target="_blank" rel="noreferrer">{lang === "zh" ? "查看資格資料" : "View credential"} ↗</a>}
-                  <details className="certDetails">
-                    <summary>{lang === "zh" ? "顯示證照圖片" : "Show certificate image"}</summary>
+                  {cert.image && <details className="certDetails" open={openCertificates.includes(certificateIndex)}>
+                    <summary onClick={(event) => { event.preventDefault(); toggleCertificateImage(certificateIndex); }}>{lang === "zh" ? "顯示證照圖片" : "Show certificate image"}</summary>
                     <div className={`certMedia ${cert.image ? "hasImage" : "isEmpty"}`}>
                       {cert.image ? <img src={assetPath(cert.image)} alt={`${cert.title[lang]} ${lang === "zh" ? "證書" : "certificate"}`} /> : <span>{lang === "zh" ? "證書圖片待補" : "Certificate image to be added"}</span>}
                     </div>
-                  </details>
+                  </details>}
                 </article>
               ))}
             </div>
-            <div className="certGroup certGroupClone" aria-hidden="true" inert>
-              {certificates.map((cert) => (
+            <div className="certGroup certGroupClone">
+              {certificates.map((cert, certificateIndex) => (
                 <article className="certCard" key={`clone-${cert.title.en}`}>
                   <span className="certMark">✓</span>
                   <p className="certPeriod">{cert.period[lang]}</p>
                   <h3>{cert.title[lang]}</h3>
                   <h4>{cert.issuer[lang]}</h4>
                   <p>{cert.detail[lang]}</p>
-                  {cert.link && <span className="certCloneLink">{lang === "zh" ? "查看資格資料" : "View credential"} ↗</span>}
-                  <div className="certCloneToggle">{lang === "zh" ? "顯示證照圖片" : "Show certificate image"}</div>
+                  {cert.link && <a href={cert.link} target="_blank" rel="noreferrer">{lang === "zh" ? "查看資格資料" : "View credential"} ↗</a>}
+                  {cert.image && <details className="certDetails" open={openCertificates.includes(certificateIndex)}>
+                    <summary onClick={(event) => { event.preventDefault(); toggleCertificateImage(certificateIndex); }}>{lang === "zh" ? "顯示證照圖片" : "Show certificate image"}</summary>
+                    <div className="certMedia hasImage"><img src={cert.image} alt={`${cert.title[lang]} ${lang === "zh" ? "證書" : "certificate"}`} /></div>
+                  </details>}
                 </article>
               ))}
             </div>
@@ -1022,7 +1072,7 @@ export default function Home() {
             <div className="projectColumn">{row.projects.map((item, i) => <article className="projectCard" key={item.id}>
               {itemTools(item)}
               <div className={`projectVisual visual${i % 4}`}><ProjectVisualContent item={item} lang={lang} index={i} /></div>
-              <div className="projectBody"><div className="meta"><span>{sectionLabels[item.kind][lang]}</span><time><EditableText value={item.period[lang]} editing={editing} onChange={(value) => updateItemText(item.id, "period", value)} /></time></div><h3><EditableText value={item.title[lang]} editing={editing} onChange={(value) => updateItemText(item.id, "title", value)} /></h3><h4><EditableText value={item.org[lang]} editing={editing} onChange={(value) => updateItemText(item.id, "org", value)} /></h4><p><EditableText value={item.summary[lang]} editing={editing} multiline onChange={(value) => updateItemText(item.id, "summary", value)} /></p>{item.bullets.length > 0 && <ul>{item.bullets.slice(0, 3).map((bullet, index) => <li key={index}><EditableText value={bullet[lang]} editing={editing} multiline onChange={(value) => updateBullet(item.id, index, value)} /></li>)}</ul>}{item.link && <a className="projectLink" href={item.link} target="_blank" rel="noreferrer">{lang === "zh" ? "開啟作品" : "Visit project"} ↗</a>}<div className="miniTags">{item.tags.map((id) => <span key={id}>#{tags.find((x) => x.id === id)?.label[lang]}</span>)}</div></div>
+              <div className="projectBody"><div className="meta"><span>{sectionLabels[item.kind][lang]}</span><time><EditableText value={item.period[lang]} editing={editing} onChange={(value) => updateItemText(item.id, "period", value)} /></time></div><h3><EditableText value={item.title[lang]} editing={editing} onChange={(value) => updateItemText(item.id, "title", value)} /></h3><h4><EditableText value={item.org[lang]} editing={editing} onChange={(value) => updateItemText(item.id, "org", value)} /></h4><p><EditableText value={item.summary[lang]} editing={editing} multiline onChange={(value) => updateItemText(item.id, "summary", value)} /></p>{item.bullets.length > 0 && <ul>{item.bullets.slice(0, 3).map((bullet, index) => <li key={index}><EditableText value={bullet[lang]} editing={editing} multiline onChange={(value) => updateBullet(item.id, index, value)} /></li>)}</ul>}{item.link && <a className="projectLink" href={item.link} target="_blank" rel="noreferrer">{item.id === "water-vision-guides" ? (lang === "zh" ? "查看專訪" : "Visit interview") : (lang === "zh" ? "開啟作品" : "Visit project")} ↗</a>}<div className="miniTags">{item.tags.map((id) => <span key={id}>#{tags.find((x) => x.id === id)?.label[lang]}</span>)}</div></div>
             </article>)}</div>
           </div>)}
           {creativeItems.length > 0 && <section className="creativeShelf" id="personal-creative">
@@ -1034,7 +1084,10 @@ export default function Home() {
             <div className="resumeHeader"><div><h2>{profile.name.toUpperCase()} {profile.chineseName}</h2><p>{t.role}</p></div><div>tyjoy.liu@gmail.com<br/>linkedin.com/in/ting-yu-liu-joy/</div></div>
             <div className="resumeIntro"><h3>{t.profile}</h3><p><EditableText value={t.profileText} editing={editing} multiline onChange={(value) => updateProfile("profileText", value)} /></p></div>
             {(Object.keys(sectionLabels) as Kind[]).map((kind) => {
-              const rows = filtered.filter((x) => x.kind === kind);
+              const rows = filtered
+                .filter((x) => !experienceIntegratedProjectIds.has(x.id))
+                .filter((x) => x.kind === kind)
+                .sort((a, b) => latestYear(b) - latestYear(a));
               return rows.length ? <section key={kind}><h3 className="resumeSection">{sectionLabels[kind][lang]}</h3>{rows.map((item) => <article className="resumeItem" key={item.id}>{itemTools(item)}<div className="resumeTitle"><div><strong><EditableText value={item.title[lang]} editing={editing} onChange={(value) => updateItemText(item.id, "title", value)} /></strong><span><EditableText value={item.org[lang]} editing={editing} onChange={(value) => updateItemText(item.id, "org", value)} /></span></div><time><EditableText value={item.period[lang]} editing={editing} onChange={(value) => updateItemText(item.id, "period", value)} /></time></div><p><EditableText value={item.summary[lang]} editing={editing} multiline onChange={(value) => updateItemText(item.id, "summary", value)} /></p>{item.teams && <div className="resumeTeams">{item.teams.map((team, teamIndex) => <section key={`${item.id}-${teamIndex}`}><h4><span><EditableText value={team.name[lang]} editing={editing} onChange={(value) => updateTeamText(item.id, teamIndex, "name", value)} /></span><time><EditableText value={team.period[lang]} editing={editing} onChange={(value) => updateTeamText(item.id, teamIndex, "period", value)} /></time></h4><ul>{team.bullets.map((bullet, bulletIndex) => <li key={bulletIndex}><EditableText value={bullet[lang]} editing={editing} multiline onChange={(value) => updateTeamBullet(item.id, teamIndex, bulletIndex, value)} /></li>)}</ul></section>)}</div>}{item.bullets.length > 0 && <ul>{item.bullets.map((bullet, bulletIndex) => <li key={bulletIndex}><EditableText value={bullet[lang]} editing={editing} multiline onChange={(value) => updateBullet(item.id, bulletIndex, value)} /></li>)}</ul>}{item.link && <a className="resumeLink" href={item.link} target="_blank" rel="noreferrer">{item.link}</a>}</article>)}</section> : null;
             })}
             <section><h3 className="resumeSection">{lang === "zh" ? "證照與資格" : "Certificates & Credentials"}</h3>{certificates.map((cert) => <article className="resumeItem" key={cert.title.en}><div className="resumeTitle"><div><strong>{cert.title[lang]}</strong><span>{cert.issuer[lang]}</span></div><time>{cert.period[lang]}</time></div><p>{cert.detail[lang]}</p></article>)}</section>

@@ -35,5 +35,5 @@
     "vite.config.ts",
     "build",
     "worker"
-]
+  ]
 }

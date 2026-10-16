@@ -69,8 +69,8 @@
               "en": "Improved ESG and Health & Safety data integrity by 45% by designing automated validation rules and performance tracking, unifying reporting for 140+ countries."
             },
             {
-              "zh": "主導即時事故通報系統的全球導入，獲 1,400+ 個據點採用，使反應速度提升 60%，並強化稽核可追溯性。",
-              "en": "Led the global rollout of an Immediate Incident Reporting system adopted at 1,400+ sites, improving response speed by 60% and strengthening audit traceability."
+              "zh": "推動即時事故通報系統於 1,400+ 個據點導入，協調利害關係人進行 GDPR 合規檢視與使用者驗收測試，並回報功能及操作流程問題。",
+              "en": "Led the rollout of an Immediate Incident Reporting system across 1,400+ sites, coordinating stakeholder validation, GDPR compliance reviews and user acceptance testing while reporting functional and user-flow issues."
             },
             {
               "zh": "撰寫符合 ISO 14001 的健康與安全手冊，強化內部永續與合規標準。",
@@ -137,20 +137,16 @@
       },
       "bullets": [
         {
-          "zh": "分析減碳方案、方法學與成本，提供重要客戶經理所需洞察，以有效向客戶推廣相關方案。",
-          "en": "Analyzed decarbonization solutions, methodologies, and costs to equip KAMs with the insights needed to promote them effectively to customers."
+          "zh": "分析減碳方案、碳交易模式、方法學與成本，協助亞太重要客戶經理提出客戶減碳建議。",
+          "en": "Analyzed decarbonization and carbon-market models, equipping APAC KAMs with customer-ready insights."
         },
         {
-          "zh": "理解亞太客戶需求，依公認碳盤查方法與物流參數處理、驗證及分析貨運資料。",
-          "en": "Understand APAC customer needs and process, validate and analyse freight data using recognised carbon-accounting methodologies and logistics parameters."
+          "zh": "產製倉儲 CO₂e 報告，依公認方法將公司 Scope 1、2 排放轉化為客戶 Scope 3 資訊。",
+          "en": "Produced warehouse CO₂e reports, translating Scope 1–2 emissions into customer Scope 3 data using recognised methods."
         },
         {
-          "zh": "開發三套內部工具，涵蓋資料查找與整理、報告產製，以及報告視覺化與品質檢查，使整體效率提升 40%。",
-          "en": "Developed three internal tools spanning data retrieval and preparation, report generation, and report visualisation and quality checks, accelerating the efficiency by 40%."
-        },
-        {
-          "zh": "促進亞太跨團隊知識分享，持續改善碳排放回報實務。",
-          "en": "Enable APAC knowledge sharing and continuous improvement of carbon-reporting practices across functions."
+          "zh": "開發三套資料處理、報告產製及視覺檢核工具並設計流程，使整體效率提升 40%。",
+          "en": "Built three tools and workflows for data preparation, reporting and visual QA, improving efficiency by 40%."
         }
       ],
       "imageLabel": {
@@ -231,6 +227,82 @@
       "imageLabel": {
         "zh": "三套工具的匿名化流程示意",
         "en": "Anonymised workflow across three tools"
+      }
+    },
+    {
+      "id": "warehouse-co2e-reporting",
+      "kind": "project",
+      "tags": [
+        "esg",
+        "it"
+      ],
+      "period": {
+        "zh": "2026 – 至今",
+        "en": "2026 – Present"
+      },
+      "title": {
+        "zh": "倉儲 CO₂e 報告計畫",
+        "en": "Warehouse CO₂e Reporting Initiative"
+      },
+      "org": {
+        "zh": "DSV｜客戶碳排報告解決方案",
+        "en": "DSV | Customer Carbon Reporting Solutions"
+      },
+      "summary": {
+        "zh": "參與建置倉儲 CO₂e 報告方案，釐清公司 Scope 1、2 排放如何轉化為客戶供應鏈 Scope 3 資訊，並將碳盤查邏輯轉化為可使用的報告、介面與作業流程。",
+        "en": "Contribute to a warehouse CO₂e reporting solution that translates DSV Scope 1 and 2 emissions into relevant customer Scope 3 information, turning carbon-accounting logic into usable reports, interfaces and workflows."
+      },
+      "bullets": [
+        {
+          "zh": "參與產製與驗證倉儲碳排報告，梳理資料需求、計算邏輯與交付流程。",
+          "en": "Support the production and validation of warehouse-emissions reports, mapping data requirements, calculation logic and delivery steps."
+        },
+        {
+          "zh": "設計報告介面與端到端流程，使內部團隊與客戶更容易理解及使用排放資料。",
+          "en": "Design report interfaces and end-to-end workflows so internal teams and customers can interpret and use emissions data more easily."
+        },
+        {
+          "zh": "研究碳交易及相關商業模式，評估碳排資料如何連結客戶減碳與服務機會。",
+          "en": "Research carbon-trading and related business models to understand how emissions data can support customer decarbonisation and service opportunities."
+        }
+      ],
+      "imageLabel": {
+        "zh": "倉儲 CO₂e 報告與資料流程示意",
+        "en": "Warehouse CO₂e reporting and data-flow concept"
+      }
+    },
+    {
+      "id": "water-vision-guides",
+      "kind": "project",
+      "tags": ["esg", "it", "guide"],
+      "period": { "zh": "2026.09", "en": "Sep 2026" },
+      "title": {
+        "zh": "水視界引路人｜水利青年培育計畫第一名",
+        "en": "Water Vision Guides | 1st Place, Water Youth Programme"
+      },
+      "org": {
+        "zh": "經濟部水利署 × 天下雜誌｜團隊「水事件路人」",
+        "en": "Water Resources Agency × CommonWealth Magazine | Team Water Passersby"
+      },
+      "summary": {
+        "zh": "針對極端降雨下官方防災資訊與民眾感受的落差，設計 Experience、Evidence、Empowerment「3E」雙向溝通模型，將專業術語轉化為可理解、可判斷、可行動的資訊。",
+        "en": "Designed a two-way 3E communication model—Experience, Evidence and Empowerment—to translate technical flood-risk information into messages people can understand, assess and act on."
+      },
+      "bullets": [
+        {
+          "zh": "以互動平台及 QR Code 模擬淹水決策，提供同理說明、具體證據與行動指引。",
+          "en": "Built a QR-based interactive simulation combining empathetic framing, concrete evidence and practical actions."
+        },
+        {
+          "zh": "現場實測使參與者決策信心由 3.5 提升至 3.7，並獲決選第一名。",
+          "en": "Increased participants’ decision-confidence score from 3.5 to 3.7 in live testing and won first place."
+        }
+      ],
+      "link": "https://river.udn.com/river/story/124359/9790708",
+      "image": "/water-youth-first-place.jpg",
+      "imageLabel": {
+        "zh": "水視界引路人團隊獲水利青年培育計畫第一名",
+        "en": "Water Vision Guides team receiving first place in the Water Youth Programme"
       }
     },
     {
@@ -687,8 +759,8 @@
         "guide"
       ],
       "period": {
-        "zh": "大學期間",
-        "en": "University project"
+        "zh": "2019",
+        "en": "2019"
       },
       "title": {
         "zh": "TGOS 蝴蝶觀察地圖競賽作品",
@@ -717,8 +789,8 @@
         "other"
       ],
       "period": {
-        "zh": "大學期間",
-        "en": "University years"
+        "zh": "2018",
+        "en": "2018"
       },
       "title": {
         "zh": "蝴蝶保育與環境教育志工",
@@ -748,8 +820,8 @@
         "other"
       ],
       "period": {
-        "zh": "大學期間",
-        "en": "University project"
+        "zh": "2020",
+        "en": "2020"
       },
       "title": {
         "zh": "蝴蝶辨識 AR 環境教育 App",
@@ -860,8 +932,8 @@
         "other"
       ],
       "period": {
-        "zh": "個人創作",
-        "en": "Personal creative work"
+        "zh": "2026",
+        "en": "2026"
       },
       "title": {
         "zh": "《貓咪瑜珈老師（基礎動作）》LINE 訊息貼圖",
@@ -900,8 +972,8 @@
         "other"
       ],
       "period": {
-        "zh": "個人創作",
-        "en": "Personal creative work"
+        "zh": "2021",
+        "en": "2021"
       },
       "title": {
         "zh": "《鹿鹿上鹿啦》LINE 原創貼圖",
@@ -987,26 +1059,8 @@
         "zh": "具備依法執行與推廣環境教育的專業資格。",
         "en": "Qualified to deliver and promote environmental education in Taiwan."
       },
+      "image": "/environmental-education-certificate.png",
       "tone": "#d8f36a"
-    },
-    {
-      "title": {
-        "zh": "中文母語 · 英文 C1 · 德文 B1",
-        "en": "Mandarin Native · English C1 · German B1"
-      },
-      "issuer": {
-        "zh": "跨文化溝通與國際協作",
-        "en": "Cross-cultural communication & international collaboration"
-      },
-      "period": {
-        "zh": "語言能力",
-        "en": "Languages"
-      },
-      "detail": {
-        "zh": "跨文化學習、研究與全球企業協作所需的語言能力。",
-        "en": "Language capability for cross-cultural study, research and global collaboration."
-      },
-      "tone": "#a9ddff"
     },
     {
       "title": {
@@ -1025,6 +1079,7 @@
         "zh": "完成 CSRD 與永續報導基礎培訓。證書編號：68b6a8e094d1ed1de70e228f",
         "en": "Completed foundational training in CSRD and sustainability reporting. Credential ID: 68b6a8e094d1ed1de70e228f"
       },
+      "image": "/csrd-certificate.jpeg",
       "tone": "#a8d8b9"
     },
     {
@@ -1064,6 +1119,7 @@
         "zh": "完成以 TCFD 氣候相關財務揭露框架為主題的 CPD 認證培訓。",
         "en": "Completed CPD-certified training on the TCFD framework for climate-related financial disclosures."
       },
+      "image": "/tcfd-certificate.png",
       "tone": "#9dd5e8"
     },
     {
@@ -1092,16 +1148,16 @@
         "en": "Lifeguard Certificate"
       },
       "issuer": {
-        "zh": "核發單位待補",
-        "en": "Issuer to be added"
+        "zh": "中華民國水上救生協會",
+        "en": "Water Life Saving Association, Republic of China"
       },
       "period": {
-        "zh": "日期與效期待補",
-        "en": "Issue and expiry dates to be added"
+        "zh": "2026.07 核發",
+        "en": "Issued Jul 2026"
       },
       "detail": {
-        "zh": "水域安全、緊急應變與救援訓練；證照資訊待補。",
-        "en": "Training in water safety, emergency response and rescue; credential details to be added."
+        "zh": "完成水域安全、緊急應變與救援訓練。",
+        "en": "Completed training in water safety, emergency response and rescue."
       },
       "tone": "#ffc98d"
     }
